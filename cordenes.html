@@ -1,0 +1,620 @@
+{% extends 'listinv.html' %} {% load static %}
+
+<head>
+
+<link rel="stylesheet" href='{% static "css/base.css" %}'>
+<script type="text/javascript" src='{% static "js/jquery/jquery-ui.min.css" %}'></script>
+  <script type="text/javascript" src='{% static "js/jquery/jquery-ui.min.js" %}'></script>
+    {% block menu %}
+    <title>Compras</title>
+
+
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
+        <a class="navbar-brand" href="#">Compra</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pedidos
+            </a>
+                    <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+                        <a class="dropdown-item" href="{% url 'purchase:orden'%}">Solicitudes de órdenes</a>
+                        <a class="dropdown-item" href="#">Pedidos de órdenes</a>
+                        <a class="dropdown-item" href="#">Proveedores</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos
+      </a>
+                    <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+                        <a class="dropdown-item" href="{% url 'erp:inventario'%}">Productos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Informes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Configuración
+            </a>
+                    <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+                        <a class="dropdown-item" href="#">Tarifas de proveedor</a>
+                        <a class="dropdown-item" href="{% url 'erp:categoria'%}">Categoría de Producto</a>
+                        <a class="dropdown-item" href="{% url 'erp:atributo'%}">Atributos</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">1
+            <i class="fas fa-envelope"></i>
+          </a>
+                </li>
+                <li class="nav-item avatar dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bienvenido {{user.username}}                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
+                        <a class="dropdown-item" href="#">Documentación</a>
+                        <a class="dropdown-item" href="#">Soporte</a>
+                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+
+    {% endblock %}
+</head>
+
+{% block creacion %}
+<div class="card-header">
+    <h3>Compra/Nueva</h3>
+</div>
+<div>
+<div>
+{%if object_list.estado != "Creada"%}
+    <a class="btn btn-primary btn-sm" href="{% url 'purchase:compranuevo'%}"> <i class="fas fa-print"></i>  
+            Imprimir
+    </a>
+
+<a class="btn btn-primary btn-sm" href="{% url 'purchase:correo'%}"> <i class="fas fa-print"></i>  
+            Enviar
+    </a>    <a class="btn btn-primary btn-sm" href="{% url 'purchase:compranuevo'%}">   <i class="fas fa-clipboard-list"></i>  
+            Confirmar Orden
+    </a>
+    <a class="btn btn-primary btn-sm" href="{% url 'purchase:orden' %}">   <i class="fas fa-times"></i>  
+            Cancelar
+    </a>
+
+{%elif object_list.estado == "Creada"%}
+    <a class="btn btn-primary btn-sm" href="{% url 'purchase:compranuevo'%}">   <i class="fas fa-clipboard-list"></i>  
+            Confirmar Orden
+    </a>
+    <a class="btn btn-primary btn-sm" href="{% url 'purchase:orden' %}" >   <i class="fas fa-times"></i>  
+            Cancelar
+    </a>
+    <span class="badge badge-dark float-right">Petición de Orden</span>
+
+{% else%}
+    <a class="btn btn-primary btn-sm" href="{% url 'purchase:orden' %}">   <i class="fas fa-times"></i>  
+            Cancelar
+    </a>
+{% endif %}
+<span class="badge badge-secondary float-right">Cancelado</span>
+<span class="badge badge-secondary float-right">Orden de Compra</span>
+<span class="badge badge-secondary float-right">Solicitud Enviada</span>
+<span class="badge badge-secondary float-right">Petición de Orden</span>
+
+</div>
+
+
+
+</div>
+
+{% endblock %} {% block ejemp %}
+
+
+
+<form method="POST">
+    <input type="hidden" name="action" value="{{action}}">
+    {% csrf_token %}
+    {%for field in form%}
+    {{field.error}}
+    {% endfor%}
+    <div class="row">
+        <div class="col">
+        <span>Proveedor</span>
+        {{form.nom_prov_comp}}
+        </div>
+        <div class="col">
+        <span>Fecha de Pedido</span>
+        {{form.fecha}}
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+        <span>Referencia</span>
+        {{form.ref_ord_compra}}
+        </div>
+        <div class="col">
+        <span>Fecha de Recepción</span>
+        {{form.fechs_rec}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        <span>Plazo</span>
+        {{form.plazo}}
+        </div>
+        <div class="col">
+        <span>Representante</span>
+        {{form.representante}}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+        <span>Sucursal</span>
+        {{form.ent_sucursal}}
+        </div>
+        
+    </div>
+
+
+
+<br>
+    <div class="card-body">
+        <div class="form-group">
+            {% csrf_token %}
+
+            <label>Buscador de Producto:</label>                        
+            <div class="input-group">
+
+                <input type="text" class="form-control" name="search" placeholder="Ingrese una descripción de productos" autocomplete="off">
+                <span class="input-group-append">
+                    <button type="button" class="btn btn-danger btn-flat btnClearSearch"><i class="fas fa-times"></i></button>
+                </span>
+            </div>
+        </div>
+        <hr>
+        
+        
+        <table class="table table-bordered" id="tblProducts">
+            <thead>
+                <tr>
+                    <th>Eliminar</th>
+                    <th>Producto</th>
+                    <th>Iva</th>
+                    <th>Precio</th>
+
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        <div>
+           
+            <div class="alineard">
+                <div >
+                <span>Subtotal</span>       
+                {{form.subtotal}}
+                </div>
+                <div >
+                <span>Iva</span>
+                {{form.iva}}
+                </div>
+                <div >
+                <span>Iva Calculado</span>
+                <input type="text" class='tam' disabled=True name="ivacalc" value="0.00">
+                </div>
+                <div>
+                <span>Total</span>
+                {{form.total}}
+                </div>
+            </div>
+        </div>
+
+<br>
+<br>
+<br>
+
+        <!--
+        <div class="col">
+
+            <span>Producto</span>
+            {{form.id_prod}}
+            <span>Cantidad</span>
+            {{form.cantidad}}
+            <span>Precio</span>
+            {{form.precio}}
+        </div>
+
+ -->
+        
+       
+  <button class="btn btn-primary" type="submit" >Guardar</button>
+    <a class="btn btn-primary" href="{% url 'purchase:orden' %}"> Descartar </a>
+
+</form>
+
+
+{% endblock %}
+
+{% block fila %}
+
+    <script>
+        $(document).ready(function(){
+            $('#bt_add').click(function(){
+                agregar();
+            });
+        });
+        var cont=0;
+        function agregar (){
+            console.log("ingresa");
+            cont++;
+            var fila='<tr class="selected" id="fila'+cont+'"><td>texto x defecto</td><td>texto x defecto </td><td>0.00</td><td>0.00</td><td>0.00</td><td><button class="btn btn-danger -xs"><i class="fas fa-trash"></i></button></td></tr>';
+            
+            $('#tabla').append(fila);
+        }
+
+        function eliminar(id_fila){
+            $('#tabla' +id_fila).remove();
+        }
+
+       
+    </script>
+
+
+
+
+{% endblock %}
+
+{% block modal %}
+
+
+<!-- Modal -->
+<div class="modal" id="modalProductos" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Enviar Correo</h5>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="post" enctype="multipart/form-data">
+
+                        {% csrf_token %}
+                       <!-- <label>Asunto</label>
+                        <input type="text" name="Asunto"><br><br>
+                        <label>Correo</label>
+                        <input type="text" name="correo"><br><br>
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" id="" cols"20" rows="10"></textarea><br><br>
+                        -->
+                        <input type="text" name="mail" placeholder="ejemplo@gmail.com">
+                        <button class="btn btn-secondary"  name="correo">Enviar</button>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+ {% endblock  %}
+{% block js %}
+<script type="text/javascript">
+        $(modalProductos).ready(function() {
+            $('#btn1').click(function() {
+                $('#modalProductos').modal('show');
+            });
+        });
+// DEtalle factura compra
+var tblProducts;
+var compr = {
+    items : {
+        nom_prov_comp:'',
+        fecha:'',
+        fechs_rec:'',
+        ref_ord_compra:'',
+        plazo:'',
+        representante:'',
+        ent_sucursal:'',
+        //nota:'',
+        subtotal:0.00,
+        iva:0.00,
+        total:0.00,
+        
+        products:[]
+    },
+    calculate_invoice: function (){
+        var subtotal = 0.00;
+        $.each(this.items.products, function(pos, dict){
+            dict.subtotal = dict.cant * parseFloat(dict.costo);
+            //console.log(pos);
+            //console.log(dict);
+            subtotal+=dict.subtotal;
+            console.log(subtotal);
+            dict.ivasin = parseFloat(dict.impuesto.valor_imp/100);
+            console.log('iavsin',dict.ivasin);
+            iva = dict.ivasin;
+            console.log('iavsin2',iva);
+
+        });
+        console.log(subtotal);
+        this.items.subtotal = subtotal;
+        $('input[name="subtotal"]').val(this.items.subtotal.toFixed(2));
+
+
+        this.items.iva = iva;
+        $('input[name="iva"]').val(this.items.iva.toFixed(2));
+
+        this.items.ivacalc = this.items.subtotal * iva;
+        $('input[name="ivacalc"]').val(this.items.ivacalc.toFixed(2));
+
+
+        this.items.total = this.items.subtotal + this.items.ivacalc;
+        $('input[name="total"]').val(this.items.total.toFixed(2));
+
+
+
+
+    },
+    add: function(item){
+        this.items.products.push(item);
+        this.list();
+    },
+
+   list:function(){
+       this.calculate_invoice();
+
+       tblProducts = $('#tblProducts').DataTable({
+            responsive:true,
+            autoWidth:false,
+            destroy:true,
+            data:this.items.products,
+            columns: [
+                    {"data":"id"},
+                    {"data":"descripcion"},
+                    {"data":"impuesto.nomb_imp"},
+                    {"data":"costo"},
+                    {"data":"cant"},
+                    {"data":"subtotal"},
+
+
+                ],
+
+            columnDefs:[
+                {
+                    targets:[0],
+                    class:'text-center',
+                    orderable: false,
+                    render: function (data, type, row){
+                        return '<a rel="remove" class="btn btn-danger btn-xs btn-flat"><i class="fas fa-trash-alt"></i></a>';
+
+                    }  
+                }  ,
+                  {
+                    targets:[-3,-1],
+                    class:'text-center',
+                    orderable: false,
+                    render: function (data, type, row){
+                        return '$'+parseFloat(data).toFixed(2);
+
+                     } 
+                  }  , 
+                {
+                    targets:[-2],
+                    class:'text-center',
+                    orderable: false,
+                    render: function (data, type, row){
+                        return '<input type="text" name="cant" class="form-control form-control-sm input-sm" autocomplete="of" value="'+row.cant+'">';
+
+                    }  
+
+                },
+                ],
+
+            
+            rowCallback(row, data, displayNum, displayIndex, dataIndex){
+                $(row).find('input[name="cant"]').TouchSpin({
+                    min:1,
+                    max:1000000000,
+                    step:1
+                });
+
+            },
+            initComplete:function(settings, json){
+
+            }
+        });
+
+   },
+};
+
+
+
+function message_error(obj){
+    $.each(obj, function(key, value){
+        console.log(key);
+        console.log(value);
+    });
+}
+
+
+
+
+
+
+
+
+
+
+$(function() {
+    $( 'input[name="search"]' ).autocomplete({
+        source: function(request, response){
+          $.ajax({
+              url: window.location.pathname,
+              type: 'POST',
+              data: {
+                  'action':'search_products',
+                  'term':request.term
+              },
+              dataType: 'json',
+            }).done(function (data) {
+                //console.log('ls',data);
+                response(data);
+                
+                  
+          }).fail(function (jqXHR, textStatus, errorThrown){
+              //alert(textStatus+':'+ errorThrown);
+          }).always(function (data){
+
+          });
+        },
+        delay: 500,
+        minLength: 1,
+        select: function (event, ui){
+            //console.log('a',ui.item);
+            event.preventDefault();
+            console.clear();
+            ui.item.cant = 1;
+            ui.item.subtotal = 0.00;
+            ui.item.ivasin = 0.00;
+            console.log('ent',compr.items);
+
+            //compr.items.products.push(ui.item);
+            compr.add(ui.item);
+            //compr.list();
+            $(this).val('');
+        }
+    });
+
+    
+
+    $('#tblProducts tbody')
+    .on('click','a[rel="remove"]', function (){
+        var tr = tblProducts.cell($(this).closest('td, li')).index();
+        compr.items.products.splice(tr.row,1);
+        compr.list();
+
+        //alert('x');
+    })
+    
+    .on('change', 'input[name="cant"]', function(){
+        //changekeyup
+        console.clear();
+        var cant = parseInt($(this).val());
+        //console.log(cant);
+        var tr = tblProducts.cell($(this).closest('td, li')).index();
+        //console.log(tr);
+        //var data = tblProducts.row(tr.row).node();
+        //console.log(data);
+        compr.items.products[tr.row].cant = cant;
+        //console.log(compr.items.products);
+        compr.calculate_invoice();
+        $('td:eq(5)',tblProducts.row(tr.row).node()).html ('$'+compr.items.products[tr.row].subtotal.toFixed(2));
+
+    });
+
+    $('.btnClearSearch').on('click', function(){
+        $('input[name="search"]').val('').focus();
+    })
+
+
+    //Guardar compra
+    $('form').on('submit', function (e){
+        e.preventDefault();
+        //var parameters = new FormData();
+        //parameters.append(name: 'action', $('input[name="action"]').val());
+
+        compr.items.nom_prov_comp = $('select[name="nom_prov_comp"]').val();
+        compr.items.fecha = $('input[name="fecha"]').val();
+        compr.items.fechs_rec = $('input[name="fechs_rec"]').val();
+        compr.items.ref_ord_compra = $('input[name="ref_ord_compra"]').val();
+        compr.items.plazo = $('select[name="plazo"]').val();
+        compr.items.representante = $('input[name="representante"]').val();
+        compr.items.ent_sucursal = $('select[name="ent_sucursal"]').val();
+        //no//compr.items.nota = $('input[name="nota"]').val();
+
+        //console.clear();
+        //console.log('entra1',compr.items.ent_sucursal);
+        //console.log('entra2',compr.items.nom_prov_comp);
+        //console.log('entra3',compr.items.fecha);
+        //console.log('entra4',compr.items.plazo);
+        //console.log('entra5',compr.items.representante);
+        //console.log('entra7',compr.items.ref_ord_compra);
+        //console.log('entra8',compr.items.fechs_rec);
+        //console.log('entra9',compr.items.nota);
+
+
+
+
+        var parameters = new FormData();
+        parameters.append(name='action', $('input[name="action"]').val());
+        parameters.append(name='compr', JSON.stringify(compr.items));
+        //console.log('xx',parameters);
+        console.log('xxx',JSON.stringify(compr.items));
+        //console.log('xxx',JSON.stringify(compr.items));
+
+
+            $.ajax({
+            url: '{% url 'purchase:compranuevo'%}',
+            type: 'POST',
+            data: parameters,
+            dataType: 'json',
+            processData: false,
+            contentType: false,
+             }).done(function(data) {
+            console.log(data);
+
+            if (!data.hasOwnProperty('error')) {
+                Location.href = '/purchase/orden/';
+                return false;
+            }
+           
+        }).fail(function(jqXHR, textStatus, errorThrown) {
+            alert(textStatus + ':' + errorThrown);
+        }).always(function(data) {
+
+        });
+    });
+
+
+
+});
+
+
+
+</script>
+{% endblock  %}
+
+  
