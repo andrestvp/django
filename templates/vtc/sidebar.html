@@ -1,0 +1,177 @@
+{% load static %}
+<aside class="main-sidebar sidebar-dark-primary elevation-8">
+    <a href="{% url 'erp:dashboard' %}" class="brand-link">
+
+        <!--<span class="brand-text font-weight-dark">Palacio del Hogar</span>-->
+    </a>
+    <div class="sidebar">
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="{{ request.user.get_image }}" class="img-circle" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">{{ request.user.username }}</a>
+            </div>
+        </div>
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-header">Opciones de Sistema</li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-boxes"></i>
+                        <p>
+                            Administracion
+                        </p>
+                        <li class="dropdown-item"> <a href="{% url 'erp:sucursal_list' %}">Gestion de Sucursales</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'user:user_list' %}">Usuarios</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'erp:tax_list' %}">Gestion de Impuestos</a></li>
+                        <li class="dropdown-item"> <a href="#">Gestion Contable</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'erp:financial_list' %}">Gestion  Pagos</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'erp:invoicing_list' %}">Gestion Facturacion </a></li>
+                        <li class="dropdown-item"> <a href="#">Gestion Facturacion Electronica</a></li>
+                    </a>
+                </li>
+
+                <li class=" nav-item">
+                    <a href="{% url 'erp:purchase_list' %}" class="nav-link">
+                        <i class="nav-icon fas fa-shipping-fast"></i>
+                        <p>
+                            Compras
+                        </p>
+                    </a>
+                    <li class="dropdown-item"> <a href="{% url 'erp:purchaseOrder_list' %}">Orden de Compra</a></li>
+                    <li class="dropdown-item"> <a href="{% url 'erp:reception_list' %}">Recepcion de Compra</a></li>
+                    <li class="dropdown-item"> <a href="{% url 'erp:purchase_list' %}">Compras</a></li>
+                    <li class="dropdown-item"> <a href="{% url 'erp:expenses_list' %}">Gastos</a></li>
+                    <li class="dropdown-item"> <a href="#">Servicios</a></li>
+                    <li class="dropdown-item"> <a href="#">Analisis de Compras</a></li>
+                    <li class="dropdown-item"> <a href="{% url 'erp:provider_list' %}">Proveedores</a>
+                        <li class="dropdown-item"> <a href="{% url 'erp:grouprov_list' %}">Grupo de Proveedores</a></li>
+
+
+                    </li>
+
+
+
+                </li>
+
+                <li class="nav-item">
+                    <a href="{% url 'erp:product_list' %}" class="nav-link">
+                        <i class="nav-icon fas fa-boxes"></i>
+                        <p>
+                            Inventario
+                        </p>
+
+                        <li class="dropdown-item"> <a href="{% url 'erp:product_list' %}">Productos</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'erp:category_list' %}">Categoria de Productos</a></li>
+                        <li class="dropdown-item"> <a href="#">Grupo de Productos</a></li>
+                        <li class="dropdown-item"> <a href="{% url 'erp:measures_list' %}">Medidas</a></li>
+                        <li class="dropdown-item"> <a href="#">Movimiento de Inventario</a></li>
+                        <li class="dropdown-item"> <a href="#">Toma Fisica</a></li>
+                        <li class="dropdown-item"> <a href="#">Actualizar Existencias</a></li>
+                        <li class="dropdown-item"> <a href="#">Ingresos</a>
+                            <li class="dropdown-item"> <a href="{% url 'erp:transfer_list' %}">Transferencias de Mercaderia</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:grouprov_list' %}">Aprobar Transferencias</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:scrap_list' %}">Dar de Baja </a></li>
+                    </a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a href="{% url 'erp:client_list' %}" class="nav-link">
+                            <i class="nav-icon fas fa-users"></i>
+                            <p>
+                                Clientes
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'erp:timelimit_list' %}" class="nav-link">
+                            <i class="nav-icon fas fa-calendar-alt"></i>
+                            <p>
+                                Plazos
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'erp:serie_list' %}" class="nav-link">
+                            <i class="nav-icon fas fa-calendar-alt"></i>
+                            <p>
+                                Series
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link">
+                            <i class="nav-icon fas fa-shopping-cart"></i>
+                            <p>
+                                Ventas
+                            </p>
+                            <li class="dropdown-item"> <a href="{% url 'erp:pricelist_list' %}">Tarifas</a></li>
+                            <li class="dropdown-item"> <a href="">Facturacion</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:sale_list' %}">Cotizaciones</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:sale_list' %}">Pedidos</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:client_list' %}">Clientes</a></li>
+                            <li class="dropdown-item"> <a href="">Grupo de Clientes</a></li>
+                            <li class="dropdown-item"> <a href="">Zonas Clientes</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:secuences_list' %}">Secuencias</a></li>
+                            <li class="dropdown-item"> <a href="{% url 'erp:vendor_list' %}">Vendedores</a>
+                                <li class="dropdown-item"> <a href="{% url 'erp:sucursal_list' %}">Sucursales</a>
+                                    <li class="dropdown-item"> <a href="{% url 'erp:creditcard_list' %}">Tarjetas de Credito</a>
+                                        <li class="dropdown-item"> <a href="">Despacho</a>
+                                            <li class="dropdown-item"> <a href="">Recepcion</a>
+                                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Reportes de Venta</a>
+                        </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{% url 'user:user_list' %}" class="nav-link">
+                                <i class="nav-icon fas fa-hands"></i>
+                                <p>
+                                    Credito
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'user:user_list' %}" class="nav-link">
+                                <i class="nav-icon fas fa-user-clock"></i>
+                                <p>
+                                    Cobranza
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'user:user_list' %}" class="nav-link">
+                                <i class="nav-icon fas fa-hand-holding-usd"></i>
+                                <p>
+                                    Finanzas y Pagos
+                                </p>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Estado de Cuenta</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Pagos</a></li>
+
+
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'user:user_list' %}" class="nav-link">
+                                <i class="nav-icon fas fa-money-bill-alt"></i>
+                                <p>
+                                    Contabilidad
+                                </p>
+                                <li class="dropdown-item"> <a a href="{% url 'erp:accounts_list' %}"href="{% url 'sale_report' %}">Plan de Cuentas</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Libro Diario</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Conciliacion Bancaria</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Conceptos de Movimientos</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Asiento de Cierre</a></li>
+                                <li class="dropdown-item"> <a href="{% url 'sale_report' %}">Centro de Costos</a></li>
+                            </a>
+                        </li>
+
+
+            </ul>
+        </nav>
+    </div>
+</aside>
