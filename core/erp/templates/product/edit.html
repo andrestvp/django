@@ -1,0 +1,131 @@
+{% extends 'list.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% block head_list %}
+    <link href="{% static 'lib/jquery-ui-1.12.1/jquery-ui.min.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/jquery-ui-1.12.1/jquery-ui.min.js' %}"></script>
+
+    <link href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}" rel="stylesheet"/>
+    <link href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+
+    <script src="{% static 'lib/moment-2.25.3/moment-with-locales.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js' %}"></script>
+    <link href="{% static 'lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet"/>
+
+    <link href="{% static 'lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.js' %}"></script>
+
+    <script src="{% static 'product/js/form.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        <div class="card card-primary">
+
+                <div class="card-header">
+                    <h3 class="card-title">
+                        {% if action == 'add' %}
+                            <i class="fas fa-plus"></i>
+                        {% else %}
+                            <i class="fas fa-edit"></i>
+                        {% endif %}
+
+                        {{ title }}
+                    </h3>
+                </div>
+
+
+                <div class="card-body">
+                    {% csrf_token %}
+
+                    <input type="hidden" name="action" value="{{ action }}">
+                    <div class="form-group">
+                        <label>Nombre:</label>
+                        {{ obj1.name }}
+                    </div>
+                    <div class="form-group">
+                        <label>Categoria:</label>
+                        {{ obj1.cat }}
+                    </div>
+
+                    {%if obj1.image %}
+                        <img src="/media/{{obj1.image}}" alt="image"  width: "10px" height: "10px">
+                        <!--  <img src="{{obj1.image.url}}" alt="image"> --> 
+
+                    {% endif %}
+
+
+                    <div class="form-group">
+                        <label>Imagen:</label>
+                        {{ obj1.image }}
+                    </div>
+                    <div class="form-group">
+                        <label>Stock:</label>
+                        {{ obj1.stock }}
+                    </div>
+                    <div class="form-group">
+                        <label>Precio:</label>
+                        {{ obj1.pvp }}
+                    </div>
+                    <div class="form-group">
+                        <label>Costo Estándar:</label>
+                        {{ obj1.standardcost }}
+                    </div>
+                    <div class="form-group">
+                        <label>Costo Compra:</label>
+                        {{ obj1.purchasecost }}
+                    </div>
+                    <div class="form-group">
+                        <label>Costo Actual:</label>
+                        {{ obj1.currentcost }}
+                    </div>
+                    <div class="form-group">
+                        <label>Ficha Actual:</label>
+                        {{ obj1.datasheet }}
+                    </div>
+                    <div class="form-group">
+                        <label>Detalle:</label>
+                        {{ obj1.detail }}
+                    </div>
+                    <div class="form-group">
+                        <label>Stock Máximo:</label>
+                        {{ obj1.maxstock }}
+                    </div>
+                    <div class="form-group">
+                        <label>Stock Mínimo:</label>
+                        {{ obj1.minstock }}
+                    </div>
+                    <div class="form-group">
+                        <label>Sucursal:</label>
+                        {{ obj1.suc }}
+                    </div>
+                    <div class="form-group">
+                        <label>Código:</label>
+                        {{ obj1.codigo }}
+                    </div>
+
+
+                </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary btn-flat">
+                    <i class="fas fa-save"></i> Guardar registro
+                </button>
+                <a href="{{ list_url }}" class="btn btn-danger btn-flat">
+                    <i class="fas fa-times"></i> Cancelar
+                </a>
+
+            </div>
+        </div>
+    </form>
+
+    <script type="application/javascript">
+        $(function () {
+            $('.select2').select2({
+                theme: "bootstrap4",
+                language: 'es'
+            });
+        });
+    </script>
+{% endblock %}
