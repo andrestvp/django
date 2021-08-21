@@ -1,0 +1,510 @@
+{% extends 'list.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% block head_list %}
+    <link href="{% static 'lib/jquery-ui-1.12.1/jquery-ui.min.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/jquery-ui-1.12.1/jquery-ui.min.js' %}"></script>
+
+    <link href="{% static 'lib/select2-4.0.13/css/select2.min.css' %}" rel="stylesheet"/>
+    <link href="{% static 'lib/select2-4.0.13/css/select2-bootstrap4.min.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/select2-4.0.13/js/select2.min.js' %}"></script>
+    <script src="{% static 'lib/select2-4.0.13/js/i18n/es.js' %}"></script>
+
+    <script src="{% static 'lib/moment-2.25.3/moment-with-locales.js' %}"></script>
+    <script src="{% static 'lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.js' %}"></script>
+    <link href="{% static 'lib/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet"/>
+
+    <link href="{% static 'lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.css' %}" rel="stylesheet"/>
+    <script src="{% static 'lib/bootstrap-touchspin-4.3.0/jquery.bootstrap-touchspin.js' %}"></script>
+
+    <script  src="{% static 'purchaseOrder/js/form.js' %}"></script>
+    <script type="text/javascript">
+    function makeReadonly() {
+        if (document.getElementById('id_estado').value == 'Cancelada') {
+            var e = document.getElementById('id_estado').value;
+            console.log('x', e);
+//document.getElementById('id_sucursal').readOnly = true;
+            //document.getElementById("id_sucursal").setAttribute("readonly", true);
+            document.getElementById("date_joined").setAttribute("readonly", true);
+            //document.getElementById("id_vendedor").setAttribute("readonly", true);
+            document.getElementById("id_entrada").setAttribute("readonly", true);
+            //document.getElementById("id_tipo").setAttribute("readonly", true);
+            //document.getElementById("id_plazo").setAttribute("readonly", true);
+            //document.getElementById("id_tax").setAttribute("readonly", true);
+
+            //document.getElementById("select2-id_cli-container").setAttribute("readonly", true);
+            $('#id_sucursal').prop("disabled", true);
+            $('#id_vendedor').prop("disabled", true);
+            $('#id_tipo').prop("disabled", true);
+            $('#id_plazo').prop("disabled", true);
+            $('#id_tax').prop("disabled", true);
+            $("#id_cli").select2({disabled:'readonly'});
+            $("#search").select2({disabled:'readonly'});
+
+            //$("#id_search").select2({disabled:'readonly'});
+            btnAddClient.setAttribute("disabled","true");
+            dropdown.setAttribute("disabled","true");
+
+       
+
+            
+
+
+            //$('select').select2().enable(false);
+
+
+//var c = document.getElementById('id_sucursal').value;
+//console.log('c', c);
+        } else if (document.getElementById('id_estado').value == 'Solicitud' ) {
+            var e = document.getElementById('id_estado').value;
+            console.log('x', e);
+//            document.getElementById('id_sucursal').readOnly = false;
+            document.getElementById("id_sucursal").removeAttribute("readonly");
+            $("#btnConfirmar").show();
+        } else if (document.getElementById('id_estado').value == '' ){
+            $("#btnConfirmar").hide();
+
+        }
+    }
+    
+		// window.onload=makeReadonly;
+
+    </script>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Mantenimiento')" id=defaultOpen>Mantenimiento</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Retencion</button>
+  <button class="tablinks" onclick="openCity(event, 'datosorden')">Fecha y Pagos</button>
+</div>
+                              
+   
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModalClient" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <form id="frmClient" enctype="multipart/form-data" method="post">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            <b><i class="fas fa-user-plus"></i> Nuevo registro de un cliente</b>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        {% for field in frmClient.visible_fields %}
+                            <div class="form-group">
+                                <label for="email">{{ field.label }}:</label>
+                                {{ field|add_class:'form-control'|attr:'autocomplete:off' }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">
+                            <i class="fas fa-save"></i> Guardar Cliente
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal fade" id="myModalSearchProducts" tabindex="-1" role="dialog"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <b><i class="fas fa-search"></i> Búsqueda de Productos</b>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered table-hover" id="tblSearchProducts">
+                        <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Imagen</th>
+                            <th>Stock</th>
+                            <th>Precio Unitario</th>
+                            <th>Opciones</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <div class="modal fade" id="myModalAmort" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <form id="frmAmort" enctype="multipart/form-data" method="post">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            <b><i class="fas fa-table"></i> Tabla de Amortización</b>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                    <div class= "row">
+                    <div class="col">
+                    <div class="form-group">
+                        <label for="periodo">Cliente: </label>
+                        <input type="text" class="form-control" readonly name="periodo" value={{ sale.cli.names }}&nbsp;{{ sale.cli.surnames }}-{{ sale.cli.dni }}>
+
+                    </div>
+                     </div>
+                    <div class="col">
+                    <div class="form-group">
+                        <label for="date_joined">Fecha: </label>
+                        <input type="date" class="form-control" readonly name="date_joined" value={{ sale.date_joined|date:'c' }}>
+                    </div>
+
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col">
+                   <div class="form-group">
+                        <label for="total">Total a Diferir: </label>
+                        <input type="text" class="form-control" readonly name="totalpagar1" value={{sale.totalpagar }}>
+
+                    </div>
+                    </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="plazo">Tiempo Diferido en Meses: </label>
+                                <input type="text" class="form-control " readonly name="plazo" value={{ sale.plazo.dias }}>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary btn-block btn-flat btnCalcularx" >
+                            <i class="fas fa-calculator"></i> Calcular
+                        </button>
+
+                    </div>
+                    </div>
+
+
+                     <table class="table table-bordered" id="tblAmort">
+                                    <thead>
+                                    <tr>
+                                        <th>N</th>
+                                        <th>Fecha</th>
+                                        <th>Cuota</th>
+                                        <th>Capital</th>
+                                        <th>Saldo</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+
+
+
+                                  
+                   
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block btn-flat" >
+                            <i class="fas fa-print"></i> Imprimir
+                        </button>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+        ordenes.items.products = {{ det|safe }};
+        // Se removio el vents.list(); para calcular bien el iva en el editar. Revisar al final del archivo form.js se lo puso.
+    </script>
+    <style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+
+<div id="datosorden" class="tabcontent">
+  <h3>Datos de Orden de Compra</h3>
+  <p>
+      <body onload="makeReadonly();">
+                        <div class="col-lg-4">
+                            <div class="card card-secondary">
+                                <div class="card-header">
+                                    <h3 class="card-title"><i class="fas fa-shopping-cart"></i> Datos de Orden de Compra</h3>
+                                </div>
+                                <div class="card-body">
+                                    <input type="hidden" name="action" value="{{ action }}">
+                                    <div class="form-group">
+                                        <!--{{ form.estado.as_hidden }} -->
+                                        <!-- {{ form.estado  }} -->
+
+                                        <label>Fecha de Orden de Compra:</label>
+                                        {{ form.date_joined }}
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Sucursal:</label>
+                                        {{ form.sucursal }}
+                                    </div>
+                                  
+                                    <div class="form-group">
+                                        <label>Proveedor:</label>
+                                        <div class="input-group">
+                                            {{ form.provider }}
+                                            <div class="input-group-append">
+                                                <button class="btn btn-success btn-flat btnAddClient" id="btnAddClient" type="button">
+                                                    <i class="fas fa-user-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input type="hidden" name="action" value="{{ action }}">
+
+                                        <label>Forma de Pago:</label>
+                                        {{ form.tipo }}
+                                    </div>
+
+                                    <div id='pai' >
+                                        <div class="form-group" id="credito" style="display:none">
+                                            <input type="hidden" name="action" value="{{ action }}">
+
+                                            <label>Plazos de Pago:</label>
+                                            {{ form.plazo }}
+
+                                            <input type="text" class="form-control" readonly name="tval" id="tval" value="">
+
+                                        </div>
+                                    
+                                    </div>
+
+                                        <div class="form-group">
+                                            <label>Subtotal 1:</label>
+                                            {{ form.subtotal }}
+                                        </div>
+                                        <!--<div class="form-group">
+                                            <label>IVA:</label>
+                                            {{ form.iva }}
+                                        </div> -->
+                                        <div class="form-group">
+                                            <label>IVA %:</label>
+                                            {{ form.tax }}
+                                        </div>
+                                        <div class="form-group">
+                                            <label>IVA Calculado:</label>
+                                            <input type="text" class="form-control" readonly name="ivacalc" id="ivacalc" value="0.00">
+                                        </div>
+                                        <div id="pau">
+
+                                            <div class="form-group">
+                                                <label>Subtotal 2:</label>
+                                                {{ form.total }}
+                                            </div>
+                                        </div>
+                                        <div id="pao" >
+                                            <div class="form-group" id="entrada" style="display:none">
+                                                <label>(-) Entrada:</label>
+                                                {{ form.entrada }}
+
+                                            </div>
+                                        </div>
+        
+                                    <div class="form-group">
+                                        <input type="hidden" class="form-control" readonly name="ent" value="0.00">
+                                        <input type="hidden" class="form-control" readonly name="prueba" value="0.00" >
+
+                                    </div>  
+                                    <div class="form-group">
+                                        <label>Total:</label>
+                                        {{ form.totalpagar }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </body>
+                </div>
+            </div>
+  </p>
+</div>
+
+<div id="Mantenimiento" class="tabcontent">
+  <h3>Mantenimiento</h3>
+  <p>
+   <form id="frmPurchaseOrderOficial" method="post">
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">
+                    {% if action == 'add' %}
+                        <i class="fas fa-plus"></i>
+                    {% else %}
+                        <i class="fas fa-edit"></i>
+                    {% endif %}
+                    {{ title }}
+                </h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card card-secondary">
+                            <div class="card-header">
+                                <h3 class="card-title"><i class="fas fa-boxes"></i> Detalle de productos</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Buscador de productos:</label>
+                                    <div class="input-group">
+                                        <select class="form-control select2" name="search" id="search"></select>
+{#                                        <input type="text" class="form-control" autocomplete="off"#}
+{#                                               placeholder="Ingrese una descripción" maxlength="50" name="search">#}
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary dropdown-toggle" id="dropdown" type="button"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Opciones
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item btnSearchProducts">
+                                                    <i class="fas fa-search"></i> Buscar productos
+                                                </a>
+                                                <a class="dropdown-item btnClearSearch">
+                                                    <i class="fas fa-times"></i> Limpiar búsqueda
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <button type="button" class="btn btn-danger btn-xs btn-flat btnRemoveAll">
+                                    <i class="fas fa-trash"></i> Eliminar todos mis items
+                                </button>
+                                <hr>
+                                <table class="table table-bordered" id="tblProducts">
+                                    <thead>
+                                    <tr>
+                                        <th>Eliminar</th>
+                                        <th>Producto</th>
+                                        <th>Stock</th>
+                                        <th>Precio Unitario</th>
+
+                                        <th>Cantidad</th>
+                                        <th>Descuento %</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div></p> 
+</div>  
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+             
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary btn-flat">
+                    <i class="fas fa-save"></i> Guardar registro
+                </button>
+                <a href="{{ list_url }}" class="btn btn-danger btn-flat">
+                    <i class="fas fa-times"></i> Descartar
+                </a>
+                <button class="btn btn-primary btn-flat " type="button" id="btnAddAmort" style="display:none">
+                    <i class="fas fa-table"></i> Amortización
+                </button>
+
+                <button type="submit" class="btn btn-primary btn-flat" id="btnConfirmar" style="display:none">
+                    <i class="fas fa-save"></i> Confirmar
+                </button>
+
+                <button type="submit" class="btn btn-primary btn-flat" id="btnCancelar" style="display:none">
+                    <i class="fas fa-save"></i> Cancelar
+                </button>
+
+
+            </div>
+        </div>
+    </form>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+{% endblock %}
