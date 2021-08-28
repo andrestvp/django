@@ -1,0 +1,11342 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "erp",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "erp",
+    "model": "client"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "erp",
+    "model": "sale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "erp",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "erp",
+    "model": "detsale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "user",
+    "model": "user"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "225sik0woh7dbiue0143wg5p7azasjb2",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-09T01:09:46.269Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2ramz3ls532ccco35sfpsnvf9tkwivcz",
+  "fields": {
+    "session_data": "MWZjNzM5Nzc5OTlmMWRkY2U3ODQwM2Q2MmRkZDA2YzBhYzgzMjdmNjp7Il9hdXRoX3VzZXJfaWQiOiI4IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4YTQ4M2YzNmFjYTEzZTI1OWZiN2IxOTY2ZjlhN2YxOTcxNTQxNTA5In0=",
+    "expire_date": "2020-07-10T04:36:52.551Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3c94vtrnztysq1dnui31yx9xjt10rvy4",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2021-03-06T01:07:18.598Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "43ff3juu0e8lnyfznmm34bk5mmzma80r",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-10T16:04:28.189Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5ph7vxvmi0bguwe9r2f8znqregnugoqw",
+  "fields": {
+    "session_data": "MWIxNmY2ZGU3ZTcwNjI1NjhkNjJlMzUwY2IwYTczNTQ3NjIzYzE1ZjqABJWXAAAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKDE3MTRkNWM3Mjc1N2YxNzczNWNlZmE4ZTFjOWU1M2YxMmVlNjljMzOUdS4=",
+    "expire_date": "2020-08-13T18:59:49.128Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6drwyeuiivwvuat719n1awg6s93wv73q",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-11-09T19:46:39.257Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "76qf8qiijls18dbl2p4x2gongz9jun7z",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-01T19:15:46.451Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7uphryrkeh3pwrh1edlmxv8cie8xmx6n",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-10T22:41:12.899Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8qe1xi3bw9jx3306qp981z2gs0p0w4n2",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2021-01-23T14:53:26.629Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8zfmreqlrt6urrkb258xpu6hdrleblci",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-05-27T04:14:58.702Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "917iz2sa9o7st5m0pgxg2lo32uxjd3ut",
+  "fields": {
+    "session_data": "Y2M3Mzc0YmQ3MjUzMDRkOGEwN2RkNWIzMDA2MDM3OGQ4YTY2ODI3YTqABH2ULg==",
+    "expire_date": "2020-10-07T04:10:35.164Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9l7jlcamwqbi36zjctsxkojiks5vymn2",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-05-29T20:02:42.723Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9n3gpfoa354yjumz8wozlwr4ad9niain",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-17T17:37:32.425Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aedsr952ppq6fqp8tbmimmhoh76v5b3c",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-03T00:08:35.733Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ags1xuv6kadvlrshw1u60c6ogsm7an2k",
+  "fields": {
+    "session_data": "MmE5NGI1OGM3YWZmYjBjZDk2MzFjODgzOWM3Yjk1ZjAxYzY0N2MwZTqABJWXAAAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKDAzMTI1Y2NlM2UyNmFmYzg3NTRlM2VjOTE4ZTIyY2Q0ZmIxMjU2NjiUdS4=",
+    "expire_date": "2020-08-27T13:31:41.255Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ao600vb60uuipvjo8zvxessdj07f4lmu",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-03T18:41:07.105Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "apd6ly680tbljq9a96hvh51nebcuhv7l",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-17T04:26:33.915Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "avttngz7mjgdz63spa7scxq8z8xi3svn",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-26T19:20:46.071Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c0xnjc22e2phfhsg0n1ve7fileubvubi",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-05-25T21:44:43.218Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "czx434te2jxri0kyl0f7dtdyowz2s98w",
+  "fields": {
+    "session_data": "MTdiZDhkYTcwYjQ3Mjc2YjkwMjk4Nzk3YjdmYzUyMmI2ZmYwMDM2YzqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGM2NTZkMTE2MjcwMjIwNGJjYjdmZjZjMWYyYTk5MzdhMjRiMzc1N2KUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-08-31T01:51:26.308Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e8qyv7j20s2tgeldw9sbo13lrdc78x1i",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2021-04-16T18:08:51.144Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f4sg0mbf43v770nxqb4ghygr62w858e0",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-05-28T04:15:08.987Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ijgtfyk65qo7uslyr06l3m42k3q4hyhh",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-11-10T00:47:05.184Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jfgqjhhz1ne1zhmhr2him7fgdq0m6lil",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-05T01:14:25.694Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mmxj667s4tyr1ndcqb2jmvm4fo1g5g95",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-22T00:36:39.544Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nlkt0cktub8e8seqzx8i27mvsp5vg6g1",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-21T03:40:28.097Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oded9iuzlr7rx4ltm10jwy0sz2p74qsy",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-01T04:34:16.910Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pha4t9qj3m41klfy7pf2pwcnj8db9dhh",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-23T00:58:41.091Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pj3w9sf5gdti90zgeph6p207399izm3v",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-12-11T13:40:16.301Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ts110mrghdm9tedeaece8jxc880ar8mb",
+  "fields": {
+    "session_data": "NjRjNmZhZjM4Zjk3MjlhY2FjOWIyMGFmODA4MjYzYmQxMmYwZDlkYTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKDE3MTRkNWM3Mjc1N2YxNzczNWNlZmE4ZTFjOWU1M2YxMmVlNjljMzOUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-08-06T22:38:38.913Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ulekbhu15t3cwl52xmq5rlykv3xia7y4",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-13T04:32:36.354Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ux4gpc1v1whpffq94bslon9ijpynhqta",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-07-02T04:21:35.861Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vawn249bybyr8qxcbcbf5stbl791tsle",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2020-12-17T00:28:17.097Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vf32h9v9oteceykz3n53va8tpmxfbtyz",
+  "fields": {
+    "session_data": "NmMzYzUyNmViY2U2MDdjYTBmNTFiMDIzMzhkNGQ4NTkwNGI4NGUxMTqABJVXAQAAAAAAAH2UKIwNX2F1dGhfdXNlcl9pZJSMATGUjBJfYXV0aF91c2VyX2JhY2tlbmSUjClkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZJSMD19hdXRoX3VzZXJfaGFzaJSMKGUyY2NkNDEwMGJjOWRiNmY0ODQwNjk1M2Q3Zjk5M2FlMGE2ZGExNTCUjAVncm91cJSMFWRqYW5nby5kYi5tb2RlbHMuYmFzZZSMDm1vZGVsX3VucGlja2xllJOUjARhdXRolIwFR3JvdXCUhpSFlFKUfZQojAZfc3RhdGWUaAiMCk1vZGVsU3RhdGWUk5QpgZR9lCiMBmFkZGluZ5SJjAJkYpSMB2RlZmF1bHSUdWKMAmlklEsBjARuYW1llIwNQWRtaW5pc3RyYWRvcpSMD19kamFuZ29fdmVyc2lvbpSMBTMuMC40lHVidS4=",
+    "expire_date": "2021-01-25T01:28:38.674Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wxlyuyrldlo01knnrvuvu9qeff045atm",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-08T22:09:35.781Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xn0d2fi1ayu9x8ngrtcwjzb84vdz7mhw",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-29T17:42:06.316Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yvos6vlv9ql8qm5eyle3xsczqld8quqb",
+  "fields": {
+    "session_data": "OGEzN2UyMmI1ZGQ1YTdjZTJhYmIyZmYwYjZlZDQ5MDEwNDRkZTk1ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNzE0ZDVjNzI3NTdmMTc3MzVjZWZhOGUxYzllNTNmMTJlZTY5YzMzIn0=",
+    "expire_date": "2020-06-24T03:28:02.566Z"
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 1,
+  "fields": {
+    "name": "Comidas",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 2,
+  "fields": {
+    "name": "Bebidas",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 3,
+  "fields": {
+    "name": "Vegetales",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 4,
+  "fields": {
+    "name": "Colas y Bebidas Co",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 5,
+  "fields": {
+    "name": "Palomitas 21",
+    "desc": null
+  }
+},
+{
+  "model": "erp.category",
+  "pk": 6,
+  "fields": {
+    "name": "Guisantes",
+    "desc": null
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 1,
+  "fields": {
+    "name": "Pollo",
+    "cat": 1,
+    "image": "",
+    "stock": 15,
+    "pvp": "3.25"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 2,
+  "fields": {
+    "name": "Chuleta",
+    "cat": 1,
+    "image": "",
+    "stock": 20,
+    "pvp": "3.25"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 3,
+  "fields": {
+    "name": "Carne",
+    "cat": 1,
+    "image": "",
+    "stock": 50,
+    "pvp": "3.25"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 4,
+  "fields": {
+    "name": "Costilla",
+    "cat": 1,
+    "image": "",
+    "stock": 44,
+    "pvp": "3.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 5,
+  "fields": {
+    "name": "Chuzo doble",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 6,
+  "fields": {
+    "name": "Chuzo con pollo",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 7,
+  "fields": {
+    "name": "Chuzo con carne",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 8,
+  "fields": {
+    "name": "Arroz con menestra",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 9,
+  "fields": {
+    "name": "Mini parrillada 1",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "3.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 10,
+  "fields": {
+    "name": "Mini parrillada 2",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "5.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 11,
+  "fields": {
+    "name": "Parrillada 1",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "11.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 12,
+  "fields": {
+    "name": "Parrillada 2",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "16.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 13,
+  "fields": {
+    "name": "Parrillada 3",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "26.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 14,
+  "fields": {
+    "name": "Porci\u00f3n de menestra",
+    "cat": 1,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 15,
+  "fields": {
+    "name": "Jugo de naranja",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.00"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 16,
+  "fields": {
+    "name": "Agua",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "0.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 17,
+  "fields": {
+    "name": "Cola grande",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 18,
+  "fields": {
+    "name": "Cola mediana",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "0.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 19,
+  "fields": {
+    "name": "Jugo deli",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "0.75"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 20,
+  "fields": {
+    "name": "Jugo Ice",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "0.75"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 21,
+  "fields": {
+    "name": "Jugo ice litro",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 22,
+  "fields": {
+    "name": "Fuze tea",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "0.75"
+  }
+},
+{
+  "model": "erp.product",
+  "pk": 23,
+  "fields": {
+    "name": "Fuze tea litro",
+    "cat": 2,
+    "image": "",
+    "stock": 0,
+    "pvp": "1.50"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 1,
+  "fields": {
+    "names": "Consumidor final",
+    "surnames": "Consumidor final",
+    "dni": "9999999999",
+    "date_birthday": "2020-05-18",
+    "address": "Ecuador",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 2,
+  "fields": {
+    "names": "Ana Gabriela",
+    "surnames": "Matute Guaman",
+    "dni": "8888888888",
+    "date_birthday": "1994-07-22",
+    "address": "Ecuador",
+    "gender": "female"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 3,
+  "fields": {
+    "names": "William Jair",
+    "surnames": "D\u00e1vila VArgas",
+    "dni": "0928363993",
+    "date_birthday": "1994-10-19",
+    "address": "Ecuador",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 4,
+  "fields": {
+    "names": "Jose Alberto",
+    "surnames": "Barahona Perez",
+    "dni": "2975545121",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 5,
+  "fields": {
+    "names": "Jose Alberto",
+    "surnames": "Tomala Antu\u00f1a",
+    "dni": "0928631145",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 6,
+  "fields": {
+    "names": "Jose Alberto ",
+    "surnames": "Perez Torres",
+    "dni": "0239198281",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 7,
+  "fields": {
+    "names": "Jorge Luis",
+    "surnames": "Cabo Antu\u00f1a",
+    "dni": "3432839283",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 8,
+  "fields": {
+    "names": "pigyuave",
+    "surnames": "pigyuave",
+    "dni": "3434311111",
+    "date_birthday": "2020-10-26",
+    "address": "milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 9,
+  "fields": {
+    "names": "Ana Gabriela",
+    "surnames": "Matute Gumana",
+    "dni": "0978454212",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 10,
+  "fields": {
+    "names": "Ana Gabriela",
+    "surnames": "Matute Guaman",
+    "dni": "1928198291",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.client",
+  "pk": 11,
+  "fields": {
+    "names": "Wendy Marisol",
+    "surnames": "D\u00e1vila Vargas",
+    "dni": "2222332122",
+    "date_birthday": "2020-10-26",
+    "address": "Milagro",
+    "gender": "male"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 1,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-01",
+    "subtotal": "45.50",
+    "iva": "5.46",
+    "total": "50.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 2,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-02",
+    "subtotal": "28.00",
+    "iva": "3.36",
+    "total": "31.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 3,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-01-03",
+    "subtotal": "47.50",
+    "iva": "5.70",
+    "total": "53.20"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 4,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-01-04",
+    "subtotal": "48.50",
+    "iva": "5.82",
+    "total": "54.32"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 5,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-05",
+    "subtotal": "23.00",
+    "iva": "2.76",
+    "total": "25.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 6,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-06",
+    "subtotal": "17.25",
+    "iva": "2.07",
+    "total": "19.32"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 7,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-07",
+    "subtotal": "101.50",
+    "iva": "12.18",
+    "total": "113.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 8,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-08",
+    "subtotal": "72.00",
+    "iva": "8.64",
+    "total": "80.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 9,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-09",
+    "subtotal": "117.50",
+    "iva": "14.10",
+    "total": "131.60"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 10,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-01-10",
+    "subtotal": "109.50",
+    "iva": "13.14",
+    "total": "122.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 11,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-11",
+    "subtotal": "83.00",
+    "iva": "9.96",
+    "total": "92.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 12,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-12",
+    "subtotal": "12.50",
+    "iva": "1.50",
+    "total": "14.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 13,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-13",
+    "subtotal": "37.00",
+    "iva": "4.44",
+    "total": "41.44"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 14,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-14",
+    "subtotal": "56.25",
+    "iva": "6.75",
+    "total": "63.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 15,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-15",
+    "subtotal": "148.25",
+    "iva": "17.79",
+    "total": "166.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 16,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-16",
+    "subtotal": "196.25",
+    "iva": "23.55",
+    "total": "219.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 17,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-17",
+    "subtotal": "11.75",
+    "iva": "1.41",
+    "total": "13.16"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 18,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-18",
+    "subtotal": "32.75",
+    "iva": "3.93",
+    "total": "36.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 19,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-01-19",
+    "subtotal": "16.00",
+    "iva": "1.92",
+    "total": "17.92"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 20,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-20",
+    "subtotal": "39.25",
+    "iva": "4.71",
+    "total": "43.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 21,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-01-21",
+    "subtotal": "3.00",
+    "iva": "0.36",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 22,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-01",
+    "subtotal": "6.00",
+    "iva": "0.72",
+    "total": "6.72"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 23,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-02",
+    "subtotal": "3.25",
+    "iva": "0.39",
+    "total": "3.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 24,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-02-03",
+    "subtotal": "58.00",
+    "iva": "6.96",
+    "total": "64.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 25,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-04",
+    "subtotal": "3.50",
+    "iva": "0.42",
+    "total": "3.92"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 26,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-05",
+    "subtotal": "1.50",
+    "iva": "0.18",
+    "total": "1.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 27,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-06",
+    "subtotal": "60.00",
+    "iva": "7.20",
+    "total": "67.20"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 28,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-07",
+    "subtotal": "27.75",
+    "iva": "3.33",
+    "total": "31.08"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 29,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-02-08",
+    "subtotal": "14.25",
+    "iva": "1.71",
+    "total": "15.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 30,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-09",
+    "subtotal": "14.50",
+    "iva": "1.74",
+    "total": "16.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 31,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-10",
+    "subtotal": "28.00",
+    "iva": "3.36",
+    "total": "31.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 32,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-02-11",
+    "subtotal": "140.00",
+    "iva": "16.80",
+    "total": "156.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 33,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-02-12",
+    "subtotal": "16.75",
+    "iva": "2.01",
+    "total": "18.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 34,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-13",
+    "subtotal": "29.00",
+    "iva": "3.48",
+    "total": "32.48"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 35,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-14",
+    "subtotal": "115.25",
+    "iva": "13.83",
+    "total": "129.08"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 36,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-15",
+    "subtotal": "29.25",
+    "iva": "3.51",
+    "total": "32.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 37,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-16",
+    "subtotal": "88.25",
+    "iva": "10.59",
+    "total": "98.84"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 38,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-17",
+    "subtotal": "126.25",
+    "iva": "15.15",
+    "total": "141.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 39,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-18",
+    "subtotal": "121.50",
+    "iva": "14.58",
+    "total": "136.08"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 40,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-02-19",
+    "subtotal": "3.00",
+    "iva": "0.36",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 41,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-20",
+    "subtotal": "103.00",
+    "iva": "12.36",
+    "total": "115.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 42,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-21",
+    "subtotal": "32.75",
+    "iva": "3.93",
+    "total": "36.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 43,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-22",
+    "subtotal": "37.75",
+    "iva": "4.53",
+    "total": "42.28"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 44,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-23",
+    "subtotal": "49.50",
+    "iva": "5.94",
+    "total": "55.44"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 45,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-24",
+    "subtotal": "24.00",
+    "iva": "2.88",
+    "total": "26.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 46,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-02-25",
+    "subtotal": "17.75",
+    "iva": "2.13",
+    "total": "19.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 47,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-02-26",
+    "subtotal": "97.00",
+    "iva": "11.64",
+    "total": "108.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 48,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-01",
+    "subtotal": "3.00",
+    "iva": "0.36",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 49,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-02",
+    "subtotal": "27.00",
+    "iva": "3.24",
+    "total": "30.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 50,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-03",
+    "subtotal": "83.00",
+    "iva": "9.96",
+    "total": "92.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 51,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-04",
+    "subtotal": "39.50",
+    "iva": "4.74",
+    "total": "44.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 52,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-05",
+    "subtotal": "105.75",
+    "iva": "12.69",
+    "total": "118.44"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 53,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-06",
+    "subtotal": "159.25",
+    "iva": "19.11",
+    "total": "178.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 54,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-07",
+    "subtotal": "36.75",
+    "iva": "4.41",
+    "total": "41.16"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 55,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-08",
+    "subtotal": "38.00",
+    "iva": "4.56",
+    "total": "42.56"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 56,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-09",
+    "subtotal": "233.75",
+    "iva": "28.05",
+    "total": "261.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 57,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-10",
+    "subtotal": "20.50",
+    "iva": "2.46",
+    "total": "22.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 58,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-11",
+    "subtotal": "77.75",
+    "iva": "9.33",
+    "total": "87.08"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 59,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-12",
+    "subtotal": "92.75",
+    "iva": "11.13",
+    "total": "103.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 60,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-13",
+    "subtotal": "38.50",
+    "iva": "4.62",
+    "total": "43.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 61,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-14",
+    "subtotal": "89.50",
+    "iva": "10.74",
+    "total": "100.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 62,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-15",
+    "subtotal": "96.00",
+    "iva": "11.52",
+    "total": "107.52"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 63,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-16",
+    "subtotal": "6.50",
+    "iva": "0.78",
+    "total": "7.28"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 64,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-17",
+    "subtotal": "82.75",
+    "iva": "9.93",
+    "total": "92.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 65,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-18",
+    "subtotal": "13.00",
+    "iva": "1.56",
+    "total": "14.56"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 66,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-03-19",
+    "subtotal": "1.50",
+    "iva": "0.18",
+    "total": "1.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 67,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-03-20",
+    "subtotal": "26.50",
+    "iva": "3.18",
+    "total": "29.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 68,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-03-21",
+    "subtotal": "35.50",
+    "iva": "4.26",
+    "total": "39.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 69,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-01",
+    "subtotal": "55.25",
+    "iva": "6.63",
+    "total": "61.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 70,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-04-02",
+    "subtotal": "15.50",
+    "iva": "1.86",
+    "total": "17.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 71,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-03",
+    "subtotal": "8.25",
+    "iva": "0.99",
+    "total": "9.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 72,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-04-04",
+    "subtotal": "41.00",
+    "iva": "4.92",
+    "total": "45.92"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 73,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-04-05",
+    "subtotal": "79.75",
+    "iva": "9.57",
+    "total": "89.32"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 74,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-06",
+    "subtotal": "11.00",
+    "iva": "1.32",
+    "total": "12.32"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 75,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-07",
+    "subtotal": "4.75",
+    "iva": "0.57",
+    "total": "5.32"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 76,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-04-08",
+    "subtotal": "19.75",
+    "iva": "2.37",
+    "total": "22.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 77,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-04-09",
+    "subtotal": "80.00",
+    "iva": "9.60",
+    "total": "89.60"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 78,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-04-10",
+    "subtotal": "6.00",
+    "iva": "0.72",
+    "total": "6.72"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 79,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-04-11",
+    "subtotal": "28.75",
+    "iva": "3.45",
+    "total": "32.20"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 80,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-12",
+    "subtotal": "35.50",
+    "iva": "4.26",
+    "total": "39.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 81,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-04-13",
+    "subtotal": "92.00",
+    "iva": "11.04",
+    "total": "103.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 82,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-04-14",
+    "subtotal": "65.50",
+    "iva": "7.86",
+    "total": "73.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 83,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-04-15",
+    "subtotal": "69.25",
+    "iva": "8.31",
+    "total": "77.56"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 84,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-16",
+    "subtotal": "43.75",
+    "iva": "5.25",
+    "total": "49.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 85,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-04-17",
+    "subtotal": "61.50",
+    "iva": "7.38",
+    "total": "68.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 86,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-05-01",
+    "subtotal": "83.25",
+    "iva": "9.99",
+    "total": "93.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 87,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-02",
+    "subtotal": "54.25",
+    "iva": "6.51",
+    "total": "60.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 88,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-03",
+    "subtotal": "45.00",
+    "iva": "5.40",
+    "total": "50.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 89,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-04",
+    "subtotal": "8.50",
+    "iva": "1.02",
+    "total": "9.52"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 90,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-05-05",
+    "subtotal": "13.50",
+    "iva": "1.62",
+    "total": "15.12"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 91,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-06",
+    "subtotal": "123.25",
+    "iva": "14.79",
+    "total": "138.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 92,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-07",
+    "subtotal": "54.50",
+    "iva": "6.54",
+    "total": "61.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 93,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-08",
+    "subtotal": "1.25",
+    "iva": "0.15",
+    "total": "1.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 94,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-05-09",
+    "subtotal": "259.25",
+    "iva": "31.11",
+    "total": "290.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 95,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-10",
+    "subtotal": "2.25",
+    "iva": "0.27",
+    "total": "2.52"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 96,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-05-11",
+    "subtotal": "26.75",
+    "iva": "3.21",
+    "total": "29.96"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 97,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-12",
+    "subtotal": "18.00",
+    "iva": "2.16",
+    "total": "20.16"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 98,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-13",
+    "subtotal": "100.50",
+    "iva": "12.06",
+    "total": "112.56"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 99,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-14",
+    "subtotal": "45.25",
+    "iva": "5.43",
+    "total": "50.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 100,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-05-15",
+    "subtotal": "21.25",
+    "iva": "2.55",
+    "total": "23.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 101,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-16",
+    "subtotal": "8.25",
+    "iva": "0.99",
+    "total": "9.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 102,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-05-17",
+    "subtotal": "33.25",
+    "iva": "3.99",
+    "total": "37.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 103,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-05-18",
+    "subtotal": "45.75",
+    "iva": "5.49",
+    "total": "51.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 104,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-01",
+    "subtotal": "43.25",
+    "iva": "5.19",
+    "total": "48.44"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 105,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-02",
+    "subtotal": "40.75",
+    "iva": "4.89",
+    "total": "45.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 106,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-03",
+    "subtotal": "36.25",
+    "iva": "4.35",
+    "total": "40.60"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 107,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-04",
+    "subtotal": "54.25",
+    "iva": "6.51",
+    "total": "60.76"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 108,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-05",
+    "subtotal": "14.00",
+    "iva": "1.68",
+    "total": "15.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 109,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-06",
+    "subtotal": "43.00",
+    "iva": "5.16",
+    "total": "48.16"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 110,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-07",
+    "subtotal": "7.50",
+    "iva": "0.90",
+    "total": "8.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 111,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-08",
+    "subtotal": "101.25",
+    "iva": "12.15",
+    "total": "113.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 112,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-09",
+    "subtotal": "2.25",
+    "iva": "0.27",
+    "total": "2.52"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 113,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-10",
+    "subtotal": "6.75",
+    "iva": "0.81",
+    "total": "7.56"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 114,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-11",
+    "subtotal": "15.00",
+    "iva": "1.80",
+    "total": "16.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 115,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-12",
+    "subtotal": "75.00",
+    "iva": "9.00",
+    "total": "84.00"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 116,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-13",
+    "subtotal": "70.00",
+    "iva": "8.40",
+    "total": "78.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 117,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-14",
+    "subtotal": "13.25",
+    "iva": "1.59",
+    "total": "14.84"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 118,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-15",
+    "subtotal": "4.50",
+    "iva": "0.54",
+    "total": "5.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 119,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-16",
+    "subtotal": "41.25",
+    "iva": "4.95",
+    "total": "46.20"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 120,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-17",
+    "subtotal": "60.75",
+    "iva": "7.29",
+    "total": "68.04"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 121,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-18",
+    "subtotal": "61.25",
+    "iva": "7.35",
+    "total": "68.60"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 122,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-19",
+    "subtotal": "130.25",
+    "iva": "15.63",
+    "total": "145.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 123,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-20",
+    "subtotal": "182.50",
+    "iva": "21.90",
+    "total": "204.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 124,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-21",
+    "subtotal": "2.25",
+    "iva": "0.27",
+    "total": "2.52"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 125,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-22",
+    "subtotal": "77.00",
+    "iva": "9.24",
+    "total": "86.24"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 126,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-23",
+    "subtotal": "3.00",
+    "iva": "0.36",
+    "total": "3.36"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 127,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-24",
+    "subtotal": "45.00",
+    "iva": "5.40",
+    "total": "50.40"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 128,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-25",
+    "subtotal": "46.50",
+    "iva": "5.58",
+    "total": "52.08"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 129,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-26",
+    "subtotal": "1.50",
+    "iva": "0.18",
+    "total": "1.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 130,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2020-06-27",
+    "subtotal": "95.25",
+    "iva": "11.43",
+    "total": "106.68"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 131,
+  "fields": {
+    "cli": 3,
+    "date_joined": "2020-06-28",
+    "subtotal": "169.00",
+    "iva": "20.28",
+    "total": "189.28"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 132,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-07-09",
+    "subtotal": "40.75",
+    "iva": "4.89",
+    "total": "45.64"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 133,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-06-17",
+    "subtotal": "136.50",
+    "iva": "16.38",
+    "total": "152.88"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 134,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-08-06",
+    "subtotal": "19.50",
+    "iva": "2.34",
+    "total": "21.84"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 135,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2020-09-10",
+    "subtotal": "308.75",
+    "iva": "37.05",
+    "total": "345.80"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 136,
+  "fields": {
+    "cli": 2,
+    "date_joined": "2021-01-09",
+    "subtotal": "16.25",
+    "iva": "1.95",
+    "total": "18.20"
+  }
+},
+{
+  "model": "erp.sale",
+  "pk": 137,
+  "fields": {
+    "cli": 1,
+    "date_joined": "2021-01-09",
+    "subtotal": "16.25",
+    "iva": "1.95",
+    "total": "18.20"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 1,
+  "fields": {
+    "sale": 1,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 2,
+  "fields": {
+    "sale": 1,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 3,
+  "fields": {
+    "sale": 1,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 4,
+  "fields": {
+    "sale": 1,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 5,
+  "fields": {
+    "sale": 1,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 6,
+  "fields": {
+    "sale": 1,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 7,
+  "fields": {
+    "sale": 1,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 8,
+  "fields": {
+    "sale": 1,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 9,
+  "fields": {
+    "sale": 1,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 10,
+  "fields": {
+    "sale": 2,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 11,
+  "fields": {
+    "sale": 2,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 12,
+  "fields": {
+    "sale": 2,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 13,
+  "fields": {
+    "sale": 2,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 14,
+  "fields": {
+    "sale": 2,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 15,
+  "fields": {
+    "sale": 2,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 16,
+  "fields": {
+    "sale": 3,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 17,
+  "fields": {
+    "sale": 3,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 18,
+  "fields": {
+    "sale": 3,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 19,
+  "fields": {
+    "sale": 3,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 20,
+  "fields": {
+    "sale": 3,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 21,
+  "fields": {
+    "sale": 3,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 22,
+  "fields": {
+    "sale": 3,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 23,
+  "fields": {
+    "sale": 4,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 24,
+  "fields": {
+    "sale": 4,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 25,
+  "fields": {
+    "sale": 4,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 26,
+  "fields": {
+    "sale": 4,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 27,
+  "fields": {
+    "sale": 4,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 28,
+  "fields": {
+    "sale": 5,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 29,
+  "fields": {
+    "sale": 5,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 30,
+  "fields": {
+    "sale": 5,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 31,
+  "fields": {
+    "sale": 5,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 32,
+  "fields": {
+    "sale": 5,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 33,
+  "fields": {
+    "sale": 6,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 34,
+  "fields": {
+    "sale": 6,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 35,
+  "fields": {
+    "sale": 6,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 36,
+  "fields": {
+    "sale": 6,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 37,
+  "fields": {
+    "sale": 6,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 38,
+  "fields": {
+    "sale": 7,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 39,
+  "fields": {
+    "sale": 7,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 40,
+  "fields": {
+    "sale": 7,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 41,
+  "fields": {
+    "sale": 7,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 42,
+  "fields": {
+    "sale": 7,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 43,
+  "fields": {
+    "sale": 7,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 4,
+    "subtotal": "64.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 44,
+  "fields": {
+    "sale": 7,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 45,
+  "fields": {
+    "sale": 7,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 46,
+  "fields": {
+    "sale": 7,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 47,
+  "fields": {
+    "sale": 7,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 48,
+  "fields": {
+    "sale": 8,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 49,
+  "fields": {
+    "sale": 8,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 50,
+  "fields": {
+    "sale": 8,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 51,
+  "fields": {
+    "sale": 8,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 52,
+  "fields": {
+    "sale": 8,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 53,
+  "fields": {
+    "sale": 8,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 54,
+  "fields": {
+    "sale": 8,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 55,
+  "fields": {
+    "sale": 8,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 56,
+  "fields": {
+    "sale": 8,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 57,
+  "fields": {
+    "sale": 9,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 58,
+  "fields": {
+    "sale": 9,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 59,
+  "fields": {
+    "sale": 9,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 60,
+  "fields": {
+    "sale": 9,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 61,
+  "fields": {
+    "sale": 9,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 62,
+  "fields": {
+    "sale": 10,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 4,
+    "subtotal": "44.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 63,
+  "fields": {
+    "sale": 10,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 64,
+  "fields": {
+    "sale": 10,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 65,
+  "fields": {
+    "sale": 10,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 66,
+  "fields": {
+    "sale": 10,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 67,
+  "fields": {
+    "sale": 10,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 68,
+  "fields": {
+    "sale": 10,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 69,
+  "fields": {
+    "sale": 11,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 70,
+  "fields": {
+    "sale": 11,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 71,
+  "fields": {
+    "sale": 11,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 72,
+  "fields": {
+    "sale": 11,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 73,
+  "fields": {
+    "sale": 11,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 74,
+  "fields": {
+    "sale": 11,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 75,
+  "fields": {
+    "sale": 12,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 76,
+  "fields": {
+    "sale": 12,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 77,
+  "fields": {
+    "sale": 13,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 78,
+  "fields": {
+    "sale": 13,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 79,
+  "fields": {
+    "sale": 13,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 80,
+  "fields": {
+    "sale": 13,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 81,
+  "fields": {
+    "sale": 13,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 82,
+  "fields": {
+    "sale": 13,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 83,
+  "fields": {
+    "sale": 13,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 84,
+  "fields": {
+    "sale": 13,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 85,
+  "fields": {
+    "sale": 14,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 86,
+  "fields": {
+    "sale": 14,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 87,
+  "fields": {
+    "sale": 14,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 88,
+  "fields": {
+    "sale": 14,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 89,
+  "fields": {
+    "sale": 14,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 4,
+    "subtotal": "44.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 90,
+  "fields": {
+    "sale": 15,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 91,
+  "fields": {
+    "sale": 15,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 92,
+  "fields": {
+    "sale": 15,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 93,
+  "fields": {
+    "sale": 15,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 94,
+  "fields": {
+    "sale": 15,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 95,
+  "fields": {
+    "sale": 15,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 96,
+  "fields": {
+    "sale": 15,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 97,
+  "fields": {
+    "sale": 15,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 98,
+  "fields": {
+    "sale": 15,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 99,
+  "fields": {
+    "sale": 16,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 100,
+  "fields": {
+    "sale": 16,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 101,
+  "fields": {
+    "sale": 16,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 102,
+  "fields": {
+    "sale": 16,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 103,
+  "fields": {
+    "sale": 16,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 104,
+  "fields": {
+    "sale": 16,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 105,
+  "fields": {
+    "sale": 16,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 106,
+  "fields": {
+    "sale": 16,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 107,
+  "fields": {
+    "sale": 17,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 108,
+  "fields": {
+    "sale": 17,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 109,
+  "fields": {
+    "sale": 17,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 110,
+  "fields": {
+    "sale": 17,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 111,
+  "fields": {
+    "sale": 18,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 112,
+  "fields": {
+    "sale": 18,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 113,
+  "fields": {
+    "sale": 18,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 4,
+    "subtotal": "20.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 114,
+  "fields": {
+    "sale": 19,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 115,
+  "fields": {
+    "sale": 19,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 116,
+  "fields": {
+    "sale": 19,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 117,
+  "fields": {
+    "sale": 19,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 118,
+  "fields": {
+    "sale": 20,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 119,
+  "fields": {
+    "sale": 20,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 120,
+  "fields": {
+    "sale": 20,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 121,
+  "fields": {
+    "sale": 20,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 122,
+  "fields": {
+    "sale": 20,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 123,
+  "fields": {
+    "sale": 20,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 124,
+  "fields": {
+    "sale": 20,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 125,
+  "fields": {
+    "sale": 21,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 126,
+  "fields": {
+    "sale": 22,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 127,
+  "fields": {
+    "sale": 23,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 128,
+  "fields": {
+    "sale": 24,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 129,
+  "fields": {
+    "sale": 24,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 130,
+  "fields": {
+    "sale": 24,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 131,
+  "fields": {
+    "sale": 24,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 132,
+  "fields": {
+    "sale": 24,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 133,
+  "fields": {
+    "sale": 24,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 134,
+  "fields": {
+    "sale": 24,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 135,
+  "fields": {
+    "sale": 25,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 136,
+  "fields": {
+    "sale": 26,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 137,
+  "fields": {
+    "sale": 27,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 138,
+  "fields": {
+    "sale": 27,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 139,
+  "fields": {
+    "sale": 27,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 140,
+  "fields": {
+    "sale": 27,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 141,
+  "fields": {
+    "sale": 27,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 142,
+  "fields": {
+    "sale": 27,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 143,
+  "fields": {
+    "sale": 27,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 144,
+  "fields": {
+    "sale": 27,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 145,
+  "fields": {
+    "sale": 27,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 146,
+  "fields": {
+    "sale": 28,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 147,
+  "fields": {
+    "sale": 28,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 148,
+  "fields": {
+    "sale": 28,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 149,
+  "fields": {
+    "sale": 28,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 150,
+  "fields": {
+    "sale": 28,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 151,
+  "fields": {
+    "sale": 29,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 152,
+  "fields": {
+    "sale": 29,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 153,
+  "fields": {
+    "sale": 29,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 154,
+  "fields": {
+    "sale": 29,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 155,
+  "fields": {
+    "sale": 29,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 156,
+  "fields": {
+    "sale": 30,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 157,
+  "fields": {
+    "sale": 30,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 158,
+  "fields": {
+    "sale": 30,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 159,
+  "fields": {
+    "sale": 30,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 160,
+  "fields": {
+    "sale": 31,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 4,
+    "subtotal": "4.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 161,
+  "fields": {
+    "sale": 31,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 162,
+  "fields": {
+    "sale": 31,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 163,
+  "fields": {
+    "sale": 31,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 164,
+  "fields": {
+    "sale": 31,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 165,
+  "fields": {
+    "sale": 32,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 166,
+  "fields": {
+    "sale": 32,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 167,
+  "fields": {
+    "sale": 32,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 168,
+  "fields": {
+    "sale": 32,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 169,
+  "fields": {
+    "sale": 32,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 170,
+  "fields": {
+    "sale": 32,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 171,
+  "fields": {
+    "sale": 33,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 172,
+  "fields": {
+    "sale": 33,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 173,
+  "fields": {
+    "sale": 33,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 174,
+  "fields": {
+    "sale": 33,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 175,
+  "fields": {
+    "sale": 33,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 176,
+  "fields": {
+    "sale": 33,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 177,
+  "fields": {
+    "sale": 34,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 178,
+  "fields": {
+    "sale": 34,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 179,
+  "fields": {
+    "sale": 34,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 180,
+  "fields": {
+    "sale": 35,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 181,
+  "fields": {
+    "sale": 35,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 182,
+  "fields": {
+    "sale": 35,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 183,
+  "fields": {
+    "sale": 35,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 184,
+  "fields": {
+    "sale": 35,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 185,
+  "fields": {
+    "sale": 35,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 186,
+  "fields": {
+    "sale": 35,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 187,
+  "fields": {
+    "sale": 35,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 188,
+  "fields": {
+    "sale": 36,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 189,
+  "fields": {
+    "sale": 36,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 190,
+  "fields": {
+    "sale": 36,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 191,
+  "fields": {
+    "sale": 36,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 192,
+  "fields": {
+    "sale": 37,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 193,
+  "fields": {
+    "sale": 37,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 194,
+  "fields": {
+    "sale": 37,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 195,
+  "fields": {
+    "sale": 37,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 196,
+  "fields": {
+    "sale": 37,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 197,
+  "fields": {
+    "sale": 37,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 198,
+  "fields": {
+    "sale": 37,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 4,
+    "subtotal": "44.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 199,
+  "fields": {
+    "sale": 37,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 200,
+  "fields": {
+    "sale": 38,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 201,
+  "fields": {
+    "sale": 38,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 202,
+  "fields": {
+    "sale": 38,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 203,
+  "fields": {
+    "sale": 38,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 204,
+  "fields": {
+    "sale": 38,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 4,
+    "subtotal": "4.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 205,
+  "fields": {
+    "sale": 38,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 206,
+  "fields": {
+    "sale": 39,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 207,
+  "fields": {
+    "sale": 39,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 208,
+  "fields": {
+    "sale": 39,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 209,
+  "fields": {
+    "sale": 39,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 210,
+  "fields": {
+    "sale": 39,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 211,
+  "fields": {
+    "sale": 40,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 212,
+  "fields": {
+    "sale": 41,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 213,
+  "fields": {
+    "sale": 41,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 214,
+  "fields": {
+    "sale": 41,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 215,
+  "fields": {
+    "sale": 41,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 216,
+  "fields": {
+    "sale": 41,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 217,
+  "fields": {
+    "sale": 41,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 218,
+  "fields": {
+    "sale": 41,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 219,
+  "fields": {
+    "sale": 41,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 220,
+  "fields": {
+    "sale": 41,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 221,
+  "fields": {
+    "sale": 42,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 222,
+  "fields": {
+    "sale": 42,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 223,
+  "fields": {
+    "sale": 42,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 224,
+  "fields": {
+    "sale": 42,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 225,
+  "fields": {
+    "sale": 42,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 226,
+  "fields": {
+    "sale": 42,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 227,
+  "fields": {
+    "sale": 42,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 228,
+  "fields": {
+    "sale": 42,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 229,
+  "fields": {
+    "sale": 42,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 230,
+  "fields": {
+    "sale": 43,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 231,
+  "fields": {
+    "sale": 43,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 232,
+  "fields": {
+    "sale": 43,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 233,
+  "fields": {
+    "sale": 43,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 234,
+  "fields": {
+    "sale": 43,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 235,
+  "fields": {
+    "sale": 43,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 4,
+    "subtotal": "4.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 236,
+  "fields": {
+    "sale": 43,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 237,
+  "fields": {
+    "sale": 43,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 238,
+  "fields": {
+    "sale": 43,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 239,
+  "fields": {
+    "sale": 44,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 240,
+  "fields": {
+    "sale": 44,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 241,
+  "fields": {
+    "sale": 44,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 242,
+  "fields": {
+    "sale": 45,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 1,
+    "subtotal": "5.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 243,
+  "fields": {
+    "sale": 45,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 244,
+  "fields": {
+    "sale": 45,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 245,
+  "fields": {
+    "sale": 45,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 246,
+  "fields": {
+    "sale": 45,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 247,
+  "fields": {
+    "sale": 46,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 248,
+  "fields": {
+    "sale": 46,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 249,
+  "fields": {
+    "sale": 46,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 250,
+  "fields": {
+    "sale": 46,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 251,
+  "fields": {
+    "sale": 47,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 252,
+  "fields": {
+    "sale": 47,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 253,
+  "fields": {
+    "sale": 47,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 254,
+  "fields": {
+    "sale": 47,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 255,
+  "fields": {
+    "sale": 47,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 256,
+  "fields": {
+    "sale": 47,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 257,
+  "fields": {
+    "sale": 47,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 258,
+  "fields": {
+    "sale": 47,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 259,
+  "fields": {
+    "sale": 47,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 260,
+  "fields": {
+    "sale": 48,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 261,
+  "fields": {
+    "sale": 49,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 262,
+  "fields": {
+    "sale": 49,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 263,
+  "fields": {
+    "sale": 49,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 264,
+  "fields": {
+    "sale": 50,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 265,
+  "fields": {
+    "sale": 50,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 1,
+    "subtotal": "5.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 266,
+  "fields": {
+    "sale": 50,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 267,
+  "fields": {
+    "sale": 50,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 3,
+    "subtotal": "33.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 268,
+  "fields": {
+    "sale": 50,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 269,
+  "fields": {
+    "sale": 50,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 270,
+  "fields": {
+    "sale": 50,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 271,
+  "fields": {
+    "sale": 51,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 272,
+  "fields": {
+    "sale": 51,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 273,
+  "fields": {
+    "sale": 51,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 274,
+  "fields": {
+    "sale": 51,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 275,
+  "fields": {
+    "sale": 51,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 3,
+    "subtotal": "33.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 276,
+  "fields": {
+    "sale": 52,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 277,
+  "fields": {
+    "sale": 52,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 278,
+  "fields": {
+    "sale": 52,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 4,
+    "subtotal": "64.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 279,
+  "fields": {
+    "sale": 52,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 280,
+  "fields": {
+    "sale": 52,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 281,
+  "fields": {
+    "sale": 52,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 282,
+  "fields": {
+    "sale": 52,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 283,
+  "fields": {
+    "sale": 52,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 284,
+  "fields": {
+    "sale": 53,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 285,
+  "fields": {
+    "sale": 53,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 286,
+  "fields": {
+    "sale": 53,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 287,
+  "fields": {
+    "sale": 53,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 288,
+  "fields": {
+    "sale": 53,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 289,
+  "fields": {
+    "sale": 53,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 290,
+  "fields": {
+    "sale": 53,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 291,
+  "fields": {
+    "sale": 53,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 292,
+  "fields": {
+    "sale": 53,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 293,
+  "fields": {
+    "sale": 53,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 294,
+  "fields": {
+    "sale": 54,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 295,
+  "fields": {
+    "sale": 54,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 296,
+  "fields": {
+    "sale": 54,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 297,
+  "fields": {
+    "sale": 54,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 298,
+  "fields": {
+    "sale": 54,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 299,
+  "fields": {
+    "sale": 54,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 300,
+  "fields": {
+    "sale": 55,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 301,
+  "fields": {
+    "sale": 55,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 302,
+  "fields": {
+    "sale": 55,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 303,
+  "fields": {
+    "sale": 55,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 304,
+  "fields": {
+    "sale": 56,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 305,
+  "fields": {
+    "sale": 56,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 306,
+  "fields": {
+    "sale": 56,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 307,
+  "fields": {
+    "sale": 56,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 308,
+  "fields": {
+    "sale": 56,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 309,
+  "fields": {
+    "sale": 56,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 310,
+  "fields": {
+    "sale": 56,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 311,
+  "fields": {
+    "sale": 56,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 312,
+  "fields": {
+    "sale": 56,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 313,
+  "fields": {
+    "sale": 56,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 314,
+  "fields": {
+    "sale": 57,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 315,
+  "fields": {
+    "sale": 57,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 2,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 316,
+  "fields": {
+    "sale": 57,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 317,
+  "fields": {
+    "sale": 57,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 318,
+  "fields": {
+    "sale": 57,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 319,
+  "fields": {
+    "sale": 58,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 320,
+  "fields": {
+    "sale": 58,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 321,
+  "fields": {
+    "sale": 58,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 322,
+  "fields": {
+    "sale": 58,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 323,
+  "fields": {
+    "sale": 58,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 324,
+  "fields": {
+    "sale": 58,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 325,
+  "fields": {
+    "sale": 58,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 326,
+  "fields": {
+    "sale": 58,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 327,
+  "fields": {
+    "sale": 58,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 2,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 328,
+  "fields": {
+    "sale": 59,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 4,
+    "subtotal": "44.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 329,
+  "fields": {
+    "sale": 59,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 330,
+  "fields": {
+    "sale": 59,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 331,
+  "fields": {
+    "sale": 59,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 332,
+  "fields": {
+    "sale": 59,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 333,
+  "fields": {
+    "sale": 59,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 334,
+  "fields": {
+    "sale": 60,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 335,
+  "fields": {
+    "sale": 60,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 336,
+  "fields": {
+    "sale": 60,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 337,
+  "fields": {
+    "sale": 60,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 338,
+  "fields": {
+    "sale": 60,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 339,
+  "fields": {
+    "sale": 61,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 340,
+  "fields": {
+    "sale": 61,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 341,
+  "fields": {
+    "sale": 61,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 342,
+  "fields": {
+    "sale": 61,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 343,
+  "fields": {
+    "sale": 61,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 344,
+  "fields": {
+    "sale": 61,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 345,
+  "fields": {
+    "sale": 61,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 346,
+  "fields": {
+    "sale": 61,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 347,
+  "fields": {
+    "sale": 61,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 348,
+  "fields": {
+    "sale": 62,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 349,
+  "fields": {
+    "sale": 62,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 350,
+  "fields": {
+    "sale": 62,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 351,
+  "fields": {
+    "sale": 62,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 352,
+  "fields": {
+    "sale": 62,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 4,
+    "subtotal": "44.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 353,
+  "fields": {
+    "sale": 62,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 354,
+  "fields": {
+    "sale": 62,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 355,
+  "fields": {
+    "sale": 62,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 356,
+  "fields": {
+    "sale": 62,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 357,
+  "fields": {
+    "sale": 62,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 358,
+  "fields": {
+    "sale": 63,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 359,
+  "fields": {
+    "sale": 64,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 360,
+  "fields": {
+    "sale": 64,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 361,
+  "fields": {
+    "sale": 64,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 362,
+  "fields": {
+    "sale": 64,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 363,
+  "fields": {
+    "sale": 64,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 364,
+  "fields": {
+    "sale": 64,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 365,
+  "fields": {
+    "sale": 64,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 366,
+  "fields": {
+    "sale": 64,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 367,
+  "fields": {
+    "sale": 64,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 368,
+  "fields": {
+    "sale": 64,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 369,
+  "fields": {
+    "sale": 65,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 370,
+  "fields": {
+    "sale": 65,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 371,
+  "fields": {
+    "sale": 65,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 372,
+  "fields": {
+    "sale": 65,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 373,
+  "fields": {
+    "sale": 66,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 374,
+  "fields": {
+    "sale": 67,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 375,
+  "fields": {
+    "sale": 67,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 376,
+  "fields": {
+    "sale": 68,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 377,
+  "fields": {
+    "sale": 68,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 378,
+  "fields": {
+    "sale": 68,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 379,
+  "fields": {
+    "sale": 68,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 380,
+  "fields": {
+    "sale": 68,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 381,
+  "fields": {
+    "sale": 69,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 382,
+  "fields": {
+    "sale": 69,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 383,
+  "fields": {
+    "sale": 70,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 384,
+  "fields": {
+    "sale": 70,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 385,
+  "fields": {
+    "sale": 70,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 386,
+  "fields": {
+    "sale": 70,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 387,
+  "fields": {
+    "sale": 71,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 388,
+  "fields": {
+    "sale": 71,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 389,
+  "fields": {
+    "sale": 71,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 4,
+    "subtotal": "4.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 390,
+  "fields": {
+    "sale": 72,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 391,
+  "fields": {
+    "sale": 72,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 392,
+  "fields": {
+    "sale": 72,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 1,
+    "subtotal": "5.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 393,
+  "fields": {
+    "sale": 72,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 394,
+  "fields": {
+    "sale": 72,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 395,
+  "fields": {
+    "sale": 72,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 396,
+  "fields": {
+    "sale": 72,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 397,
+  "fields": {
+    "sale": 72,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 398,
+  "fields": {
+    "sale": 72,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 399,
+  "fields": {
+    "sale": 72,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 400,
+  "fields": {
+    "sale": 73,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 401,
+  "fields": {
+    "sale": 73,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 402,
+  "fields": {
+    "sale": 73,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 403,
+  "fields": {
+    "sale": 73,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 404,
+  "fields": {
+    "sale": 73,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 405,
+  "fields": {
+    "sale": 73,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 406,
+  "fields": {
+    "sale": 73,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 407,
+  "fields": {
+    "sale": 73,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 408,
+  "fields": {
+    "sale": 73,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 409,
+  "fields": {
+    "sale": 74,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 410,
+  "fields": {
+    "sale": 75,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 411,
+  "fields": {
+    "sale": 75,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 412,
+  "fields": {
+    "sale": 75,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 413,
+  "fields": {
+    "sale": 76,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 414,
+  "fields": {
+    "sale": 76,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 415,
+  "fields": {
+    "sale": 76,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 416,
+  "fields": {
+    "sale": 76,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 417,
+  "fields": {
+    "sale": 76,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 418,
+  "fields": {
+    "sale": 76,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 419,
+  "fields": {
+    "sale": 77,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 420,
+  "fields": {
+    "sale": 77,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 421,
+  "fields": {
+    "sale": 77,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 422,
+  "fields": {
+    "sale": 77,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 423,
+  "fields": {
+    "sale": 77,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 424,
+  "fields": {
+    "sale": 77,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 425,
+  "fields": {
+    "sale": 77,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 426,
+  "fields": {
+    "sale": 77,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 427,
+  "fields": {
+    "sale": 77,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 428,
+  "fields": {
+    "sale": 77,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 429,
+  "fields": {
+    "sale": 78,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 430,
+  "fields": {
+    "sale": 78,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 431,
+  "fields": {
+    "sale": 79,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 432,
+  "fields": {
+    "sale": 79,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 433,
+  "fields": {
+    "sale": 79,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 434,
+  "fields": {
+    "sale": 79,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 435,
+  "fields": {
+    "sale": 79,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 436,
+  "fields": {
+    "sale": 79,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 437,
+  "fields": {
+    "sale": 80,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 438,
+  "fields": {
+    "sale": 80,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 439,
+  "fields": {
+    "sale": 80,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 440,
+  "fields": {
+    "sale": 80,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 441,
+  "fields": {
+    "sale": 80,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 442,
+  "fields": {
+    "sale": 80,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 443,
+  "fields": {
+    "sale": 80,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 444,
+  "fields": {
+    "sale": 81,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 445,
+  "fields": {
+    "sale": 81,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 446,
+  "fields": {
+    "sale": 82,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 447,
+  "fields": {
+    "sale": 82,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 448,
+  "fields": {
+    "sale": 82,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 449,
+  "fields": {
+    "sale": 82,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 450,
+  "fields": {
+    "sale": 83,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 451,
+  "fields": {
+    "sale": 83,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 452,
+  "fields": {
+    "sale": 83,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 453,
+  "fields": {
+    "sale": 83,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 454,
+  "fields": {
+    "sale": 83,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 455,
+  "fields": {
+    "sale": 83,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 456,
+  "fields": {
+    "sale": 83,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 457,
+  "fields": {
+    "sale": 83,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 458,
+  "fields": {
+    "sale": 83,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 459,
+  "fields": {
+    "sale": 83,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 460,
+  "fields": {
+    "sale": 84,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 461,
+  "fields": {
+    "sale": 84,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 462,
+  "fields": {
+    "sale": 84,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 463,
+  "fields": {
+    "sale": 84,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 464,
+  "fields": {
+    "sale": 84,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 465,
+  "fields": {
+    "sale": 84,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 3,
+    "subtotal": "33.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 466,
+  "fields": {
+    "sale": 84,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 467,
+  "fields": {
+    "sale": 85,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 468,
+  "fields": {
+    "sale": 85,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 469,
+  "fields": {
+    "sale": 85,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 470,
+  "fields": {
+    "sale": 85,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 471,
+  "fields": {
+    "sale": 85,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 472,
+  "fields": {
+    "sale": 85,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 473,
+  "fields": {
+    "sale": 85,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 474,
+  "fields": {
+    "sale": 86,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 475,
+  "fields": {
+    "sale": 86,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 476,
+  "fields": {
+    "sale": 86,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 477,
+  "fields": {
+    "sale": 86,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 478,
+  "fields": {
+    "sale": 86,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 479,
+  "fields": {
+    "sale": 86,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 480,
+  "fields": {
+    "sale": 86,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 481,
+  "fields": {
+    "sale": 86,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 482,
+  "fields": {
+    "sale": 86,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 483,
+  "fields": {
+    "sale": 87,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 484,
+  "fields": {
+    "sale": 87,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 485,
+  "fields": {
+    "sale": 88,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 486,
+  "fields": {
+    "sale": 88,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 487,
+  "fields": {
+    "sale": 88,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 488,
+  "fields": {
+    "sale": 88,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 489,
+  "fields": {
+    "sale": 89,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 490,
+  "fields": {
+    "sale": 89,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 491,
+  "fields": {
+    "sale": 90,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 492,
+  "fields": {
+    "sale": 90,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 493,
+  "fields": {
+    "sale": 91,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 494,
+  "fields": {
+    "sale": 91,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 495,
+  "fields": {
+    "sale": 91,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 4,
+    "subtotal": "64.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 496,
+  "fields": {
+    "sale": 91,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 497,
+  "fields": {
+    "sale": 91,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 498,
+  "fields": {
+    "sale": 91,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 499,
+  "fields": {
+    "sale": 91,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 500,
+  "fields": {
+    "sale": 91,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 501,
+  "fields": {
+    "sale": 91,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 502,
+  "fields": {
+    "sale": 92,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 503,
+  "fields": {
+    "sale": 92,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 3,
+    "subtotal": "33.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 504,
+  "fields": {
+    "sale": 92,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 505,
+  "fields": {
+    "sale": 92,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 506,
+  "fields": {
+    "sale": 93,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 1,
+    "subtotal": "0.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 507,
+  "fields": {
+    "sale": 93,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 508,
+  "fields": {
+    "sale": 94,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 509,
+  "fields": {
+    "sale": 94,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 510,
+  "fields": {
+    "sale": 94,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 511,
+  "fields": {
+    "sale": 94,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 512,
+  "fields": {
+    "sale": 94,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 513,
+  "fields": {
+    "sale": 94,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 514,
+  "fields": {
+    "sale": 94,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 515,
+  "fields": {
+    "sale": 94,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 2,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 516,
+  "fields": {
+    "sale": 94,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 517,
+  "fields": {
+    "sale": 95,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 518,
+  "fields": {
+    "sale": 96,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 519,
+  "fields": {
+    "sale": 96,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 520,
+  "fields": {
+    "sale": 96,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 521,
+  "fields": {
+    "sale": 96,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 522,
+  "fields": {
+    "sale": 96,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 523,
+  "fields": {
+    "sale": 97,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 524,
+  "fields": {
+    "sale": 97,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 525,
+  "fields": {
+    "sale": 97,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 526,
+  "fields": {
+    "sale": 98,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 527,
+  "fields": {
+    "sale": 98,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 528,
+  "fields": {
+    "sale": 98,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 529,
+  "fields": {
+    "sale": 98,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 530,
+  "fields": {
+    "sale": 98,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 531,
+  "fields": {
+    "sale": 98,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 532,
+  "fields": {
+    "sale": 98,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 533,
+  "fields": {
+    "sale": 98,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 534,
+  "fields": {
+    "sale": 98,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 535,
+  "fields": {
+    "sale": 98,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 536,
+  "fields": {
+    "sale": 99,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 537,
+  "fields": {
+    "sale": 99,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 538,
+  "fields": {
+    "sale": 99,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 539,
+  "fields": {
+    "sale": 99,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 540,
+  "fields": {
+    "sale": 99,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 541,
+  "fields": {
+    "sale": 99,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 542,
+  "fields": {
+    "sale": 99,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 543,
+  "fields": {
+    "sale": 99,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 4,
+    "subtotal": "20.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 544,
+  "fields": {
+    "sale": 100,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 545,
+  "fields": {
+    "sale": 100,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 546,
+  "fields": {
+    "sale": 100,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 547,
+  "fields": {
+    "sale": 100,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 548,
+  "fields": {
+    "sale": 100,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 549,
+  "fields": {
+    "sale": 101,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 550,
+  "fields": {
+    "sale": 101,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 551,
+  "fields": {
+    "sale": 101,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 552,
+  "fields": {
+    "sale": 102,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 553,
+  "fields": {
+    "sale": 102,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 554,
+  "fields": {
+    "sale": 102,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 555,
+  "fields": {
+    "sale": 102,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 556,
+  "fields": {
+    "sale": 102,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 557,
+  "fields": {
+    "sale": 103,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 558,
+  "fields": {
+    "sale": 103,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 559,
+  "fields": {
+    "sale": 103,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 560,
+  "fields": {
+    "sale": 103,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 561,
+  "fields": {
+    "sale": 103,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 562,
+  "fields": {
+    "sale": 103,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 563,
+  "fields": {
+    "sale": 103,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 564,
+  "fields": {
+    "sale": 104,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 565,
+  "fields": {
+    "sale": 104,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 566,
+  "fields": {
+    "sale": 104,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 1,
+    "subtotal": "5.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 567,
+  "fields": {
+    "sale": 104,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 568,
+  "fields": {
+    "sale": 104,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 569,
+  "fields": {
+    "sale": 104,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 570,
+  "fields": {
+    "sale": 104,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 571,
+  "fields": {
+    "sale": 104,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 572,
+  "fields": {
+    "sale": 104,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 573,
+  "fields": {
+    "sale": 104,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 574,
+  "fields": {
+    "sale": 105,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 575,
+  "fields": {
+    "sale": 105,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 1,
+    "subtotal": "11.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 576,
+  "fields": {
+    "sale": 105,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 577,
+  "fields": {
+    "sale": 105,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 578,
+  "fields": {
+    "sale": 105,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 579,
+  "fields": {
+    "sale": 105,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 580,
+  "fields": {
+    "sale": 105,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 581,
+  "fields": {
+    "sale": 105,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 582,
+  "fields": {
+    "sale": 105,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 2,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 583,
+  "fields": {
+    "sale": 105,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 584,
+  "fields": {
+    "sale": 106,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 585,
+  "fields": {
+    "sale": 106,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 4,
+    "subtotal": "20.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 586,
+  "fields": {
+    "sale": 106,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 587,
+  "fields": {
+    "sale": 106,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 588,
+  "fields": {
+    "sale": 106,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 589,
+  "fields": {
+    "sale": 107,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 590,
+  "fields": {
+    "sale": 107,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 591,
+  "fields": {
+    "sale": 107,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 592,
+  "fields": {
+    "sale": 107,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 593,
+  "fields": {
+    "sale": 107,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 594,
+  "fields": {
+    "sale": 107,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 595,
+  "fields": {
+    "sale": 107,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 596,
+  "fields": {
+    "sale": 107,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 597,
+  "fields": {
+    "sale": 107,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 598,
+  "fields": {
+    "sale": 107,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 599,
+  "fields": {
+    "sale": 108,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 600,
+  "fields": {
+    "sale": 109,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 601,
+  "fields": {
+    "sale": 109,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 602,
+  "fields": {
+    "sale": 109,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 603,
+  "fields": {
+    "sale": 109,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 604,
+  "fields": {
+    "sale": 109,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 605,
+  "fields": {
+    "sale": 109,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 606,
+  "fields": {
+    "sale": 109,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 607,
+  "fields": {
+    "sale": 110,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 1,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 608,
+  "fields": {
+    "sale": 110,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 609,
+  "fields": {
+    "sale": 111,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 610,
+  "fields": {
+    "sale": 111,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 611,
+  "fields": {
+    "sale": 111,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 612,
+  "fields": {
+    "sale": 111,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 613,
+  "fields": {
+    "sale": 111,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 614,
+  "fields": {
+    "sale": 112,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 615,
+  "fields": {
+    "sale": 113,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 616,
+  "fields": {
+    "sale": 113,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 617,
+  "fields": {
+    "sale": 113,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 618,
+  "fields": {
+    "sale": 114,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 619,
+  "fields": {
+    "sale": 114,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 620,
+  "fields": {
+    "sale": 115,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 621,
+  "fields": {
+    "sale": 115,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 622,
+  "fields": {
+    "sale": 115,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 623,
+  "fields": {
+    "sale": 115,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 624,
+  "fields": {
+    "sale": 115,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 625,
+  "fields": {
+    "sale": 115,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 626,
+  "fields": {
+    "sale": 115,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 3,
+    "subtotal": "48.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 627,
+  "fields": {
+    "sale": 115,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 628,
+  "fields": {
+    "sale": 115,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 629,
+  "fields": {
+    "sale": 116,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 630,
+  "fields": {
+    "sale": 116,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 4,
+    "subtotal": "64.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 631,
+  "fields": {
+    "sale": 117,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 632,
+  "fields": {
+    "sale": 117,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 633,
+  "fields": {
+    "sale": 117,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 634,
+  "fields": {
+    "sale": 117,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 635,
+  "fields": {
+    "sale": 118,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 636,
+  "fields": {
+    "sale": 119,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 637,
+  "fields": {
+    "sale": 119,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 638,
+  "fields": {
+    "sale": 119,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 639,
+  "fields": {
+    "sale": 119,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 640,
+  "fields": {
+    "sale": 119,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 2,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 641,
+  "fields": {
+    "sale": 119,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 642,
+  "fields": {
+    "sale": 119,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 643,
+  "fields": {
+    "sale": 119,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 644,
+  "fields": {
+    "sale": 119,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 645,
+  "fields": {
+    "sale": 120,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 646,
+  "fields": {
+    "sale": 120,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 647,
+  "fields": {
+    "sale": 120,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 648,
+  "fields": {
+    "sale": 120,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 649,
+  "fields": {
+    "sale": 120,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 650,
+  "fields": {
+    "sale": 120,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 651,
+  "fields": {
+    "sale": 120,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 652,
+  "fields": {
+    "sale": 120,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 653,
+  "fields": {
+    "sale": 120,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 654,
+  "fields": {
+    "sale": 121,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 655,
+  "fields": {
+    "sale": 121,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 656,
+  "fields": {
+    "sale": 121,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 657,
+  "fields": {
+    "sale": 121,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 4,
+    "subtotal": "20.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 658,
+  "fields": {
+    "sale": 121,
+    "prod": 18,
+    "price": "0.50",
+    "cant": 4,
+    "subtotal": "2.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 659,
+  "fields": {
+    "sale": 121,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 1,
+    "subtotal": "16.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 660,
+  "fields": {
+    "sale": 121,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 661,
+  "fields": {
+    "sale": 121,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 662,
+  "fields": {
+    "sale": 122,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 663,
+  "fields": {
+    "sale": 122,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 664,
+  "fields": {
+    "sale": 122,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 4,
+    "subtotal": "20.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 665,
+  "fields": {
+    "sale": 122,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 666,
+  "fields": {
+    "sale": 122,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 667,
+  "fields": {
+    "sale": 122,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 668,
+  "fields": {
+    "sale": 122,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 669,
+  "fields": {
+    "sale": 122,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 670,
+  "fields": {
+    "sale": 123,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 671,
+  "fields": {
+    "sale": 123,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 672,
+  "fields": {
+    "sale": 123,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 673,
+  "fields": {
+    "sale": 123,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 674,
+  "fields": {
+    "sale": 123,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 675,
+  "fields": {
+    "sale": 123,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 3,
+    "subtotal": "15.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 676,
+  "fields": {
+    "sale": 123,
+    "prod": 23,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 677,
+  "fields": {
+    "sale": 123,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 678,
+  "fields": {
+    "sale": 123,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 679,
+  "fields": {
+    "sale": 123,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 680,
+  "fields": {
+    "sale": 124,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 681,
+  "fields": {
+    "sale": 125,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 682,
+  "fields": {
+    "sale": 125,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 683,
+  "fields": {
+    "sale": 125,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 3,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 684,
+  "fields": {
+    "sale": 125,
+    "prod": 11,
+    "price": "11.00",
+    "cant": 2,
+    "subtotal": "22.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 685,
+  "fields": {
+    "sale": 125,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 686,
+  "fields": {
+    "sale": 125,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 687,
+  "fields": {
+    "sale": 125,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 688,
+  "fields": {
+    "sale": 125,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 2,
+    "subtotal": "7.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 689,
+  "fields": {
+    "sale": 125,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 690,
+  "fields": {
+    "sale": 126,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 4,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 691,
+  "fields": {
+    "sale": 127,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 692,
+  "fields": {
+    "sale": 127,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 693,
+  "fields": {
+    "sale": 127,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 694,
+  "fields": {
+    "sale": 127,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 695,
+  "fields": {
+    "sale": 127,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 696,
+  "fields": {
+    "sale": 127,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 697,
+  "fields": {
+    "sale": 127,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 698,
+  "fields": {
+    "sale": 127,
+    "prod": 14,
+    "price": "1.50",
+    "cant": 2,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 699,
+  "fields": {
+    "sale": 127,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 700,
+  "fields": {
+    "sale": 127,
+    "prod": 17,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 701,
+  "fields": {
+    "sale": 128,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 702,
+  "fields": {
+    "sale": 128,
+    "prod": 19,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 703,
+  "fields": {
+    "sale": 128,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 704,
+  "fields": {
+    "sale": 128,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 705,
+  "fields": {
+    "sale": 128,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 2,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 706,
+  "fields": {
+    "sale": 128,
+    "prod": 21,
+    "price": "1.50",
+    "cant": 3,
+    "subtotal": "4.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 707,
+  "fields": {
+    "sale": 128,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 708,
+  "fields": {
+    "sale": 128,
+    "prod": 7,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 709,
+  "fields": {
+    "sale": 129,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 710,
+  "fields": {
+    "sale": 130,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 1,
+    "subtotal": "26.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 711,
+  "fields": {
+    "sale": 130,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 1,
+    "subtotal": "3.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 712,
+  "fields": {
+    "sale": 130,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 713,
+  "fields": {
+    "sale": 130,
+    "prod": 8,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 714,
+  "fields": {
+    "sale": 130,
+    "prod": 16,
+    "price": "0.50",
+    "cant": 2,
+    "subtotal": "1.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 715,
+  "fields": {
+    "sale": 130,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 1,
+    "subtotal": "3.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 716,
+  "fields": {
+    "sale": 130,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 2,
+    "subtotal": "52.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 717,
+  "fields": {
+    "sale": 130,
+    "prod": 5,
+    "price": "1.50",
+    "cant": 1,
+    "subtotal": "1.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 718,
+  "fields": {
+    "sale": 130,
+    "prod": 20,
+    "price": "0.75",
+    "cant": 1,
+    "subtotal": "0.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 719,
+  "fields": {
+    "sale": 130,
+    "prod": 22,
+    "price": "0.75",
+    "cant": 3,
+    "subtotal": "2.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 720,
+  "fields": {
+    "sale": 131,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 721,
+  "fields": {
+    "sale": 131,
+    "prod": 12,
+    "price": "16.00",
+    "cant": 2,
+    "subtotal": "32.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 722,
+  "fields": {
+    "sale": 131,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 723,
+  "fields": {
+    "sale": 131,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 3,
+    "subtotal": "78.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 724,
+  "fields": {
+    "sale": 131,
+    "prod": 1,
+    "price": "3.25",
+    "cant": 2,
+    "subtotal": "6.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 725,
+  "fields": {
+    "sale": 131,
+    "prod": 9,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 726,
+  "fields": {
+    "sale": 131,
+    "prod": 15,
+    "price": "1.00",
+    "cant": 3,
+    "subtotal": "3.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 727,
+  "fields": {
+    "sale": 131,
+    "prod": 6,
+    "price": "1.50",
+    "cant": 4,
+    "subtotal": "6.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 728,
+  "fields": {
+    "sale": 131,
+    "prod": 10,
+    "price": "5.00",
+    "cant": 2,
+    "subtotal": "10.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 729,
+  "fields": {
+    "sale": 132,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 5,
+    "subtotal": "16.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 730,
+  "fields": {
+    "sale": 132,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 4,
+    "subtotal": "14.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 731,
+  "fields": {
+    "sale": 132,
+    "prod": 4,
+    "price": "3.50",
+    "cant": 3,
+    "subtotal": "10.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 732,
+  "fields": {
+    "sale": 133,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 3,
+    "subtotal": "9.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 733,
+  "fields": {
+    "sale": 133,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 7,
+    "subtotal": "22.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 734,
+  "fields": {
+    "sale": 133,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 4,
+    "subtotal": "104.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 735,
+  "fields": {
+    "sale": 134,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 6,
+    "subtotal": "19.50"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 736,
+  "fields": {
+    "sale": 135,
+    "prod": 2,
+    "price": "3.25",
+    "cant": 7,
+    "subtotal": "22.75"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 737,
+  "fields": {
+    "sale": 135,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 12,
+    "subtotal": "39.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 738,
+  "fields": {
+    "sale": 135,
+    "prod": 13,
+    "price": "26.00",
+    "cant": 9,
+    "subtotal": "234.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 739,
+  "fields": {
+    "sale": 135,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 4,
+    "subtotal": "13.00"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 740,
+  "fields": {
+    "sale": 136,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 5,
+    "subtotal": "16.25"
+  }
+},
+{
+  "model": "erp.detsale",
+  "pk": 741,
+  "fields": {
+    "sale": 137,
+    "prod": 3,
+    "price": "3.25",
+    "cant": 5,
+    "subtotal": "16.25"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 6,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 6,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 6,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 6,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Cliente",
+    "content_type": 7,
+    "codename": "add_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Cliente",
+    "content_type": 7,
+    "codename": "change_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Cliente",
+    "content_type": 7,
+    "codename": "delete_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Cliente",
+    "content_type": 7,
+    "codename": "view_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Venta",
+    "content_type": 8,
+    "codename": "add_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Venta",
+    "content_type": 8,
+    "codename": "change_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Venta",
+    "content_type": 8,
+    "codename": "delete_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Venta",
+    "content_type": 8,
+    "codename": "view_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Producto",
+    "content_type": 9,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Producto",
+    "content_type": 9,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Producto",
+    "content_type": 9,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Producto",
+    "content_type": 9,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Detalle de Venta",
+    "content_type": 10,
+    "codename": "add_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Detalle de Venta",
+    "content_type": 10,
+    "codename": "change_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Detalle de Venta",
+    "content_type": 10,
+    "codename": "delete_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Detalle de Venta",
+    "content_type": 10,
+    "codename": "view_detsale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 11,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 11,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 11,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 11,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Administrador",
+    "permissions": [
+      9,
+      10,
+      34,
+      35,
+      36,
+      41,
+      44
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Gestor",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      37,
+      38,
+      39,
+      40,
+      33,
+      34,
+      35,
+      36,
+      29,
+      30,
+      31,
+      32,
+      17,
+      18,
+      19,
+      20,
+      41,
+      42,
+      43,
+      44
+    ]
+  }
+},
+{
+  "model": "user.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$r2y2awcFzblt$lFwSS/kNHmlz00n3jz7H7sB95sO/E8HyeqKmOeDqx3Y=",
+    "last_login": "2021-04-02T18:08:50.971Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "William Jair",
+    "last_name": "D\u00e1vila Vargas",
+    "email": "williamjairdavilavargas@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-05-11T21:44:23.113Z",
+    "image": "",
+    "token": "4725f2c5-c846-41c4-8557-91510ab2ea9e",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$6kItdSVdbONp$SQ/eJ+5d7SWK5c3dP1xtpnhej4h8hTeaW+Ctol22eLE=",
+    "last_login": "2020-07-17T03:37:00.480Z",
+    "is_superuser": false,
+    "username": "jmerchanf",
+    "first_name": "Jorge Luis",
+    "last_name": "Merchan Freire",
+    "email": "jorgeluis@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-26T04:17:02.796Z",
+    "image": "",
+    "token": null,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$lCYWN1x1nfPy$mOhrX+ETlWZTwkNiAkgqFvu9CB11SblshuowP65HF1c=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "wdavilav",
+    "first_name": "",
+    "last_name": "",
+    "email": "williamjair94@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-26T04:28:42.378Z",
+    "image": "",
+    "token": null,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$qryP9GJmViJH$7AOom2ckwogdPbmx/V/1Dv+i/u5FR1BDijIqttSz7Uc=",
+    "last_login": "2020-07-17T02:31:21.281Z",
+    "is_superuser": true,
+    "username": "jair",
+    "first_name": "",
+    "last_name": "",
+    "email": "jair@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-26T04:29:38.595Z",
+    "image": "",
+    "token": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$D4RgyowFBxBy$B3sz0c7kACggQHxU4lg2FAj1xAtJcULwvM1mcvMLZjA=",
+    "last_login": "2020-06-26T04:35:56.129Z",
+    "is_superuser": false,
+    "username": "enrique",
+    "first_name": "Enrique Enrique",
+    "last_name": "Sotomayor Sotomayor",
+    "email": "enrique1993@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-26T04:35:00.094Z",
+    "image": "",
+    "token": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$DESjL88vhJBm$aN204y9Ugz2ZQ/s1kRsylDKaggPjuqxxMO/oivT9aP0=",
+    "last_login": "2020-06-26T04:36:52.513Z",
+    "is_superuser": true,
+    "username": "wjairdavilav",
+    "first_name": "",
+    "last_name": "",
+    "email": "wjaikjsd@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-26T04:36:26.756Z",
+    "image": "",
+    "token": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-07-08T00:38:30.199Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-07-08T00:38:38.411Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Gestor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-07-08T01:43:32.722Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-07-08T01:43:32.762Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Gestor",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-07-08T01:52:11.002Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Administrador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-07-08T01:52:18.842Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-07-08T01:53:00.668Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "4",
+    "object_repr": "Gestor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-07-09T01:41:47.973Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Administrador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-07-09T01:45:20.282Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-07-09T01:46:30.222Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Gestor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-07-23T22:39:51.398Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-07-23T22:41:59.842Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-07-23T22:54:29.081Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-07-23T22:56:09.760Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-07-30T00:42:32.265Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-07-30T00:43:24.311Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-07-30T00:56:50.160Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-07-30T00:57:03.634Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-07-30T00:57:55.974Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-07-30T01:44:10.302Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-07-30T01:44:51.543Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Administrador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+}
+]
